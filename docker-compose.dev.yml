@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./.env:/app/.env
+    environment:
+      - CORS_ORIGIN=http://localhost:3000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    command: >
+      sh -c "python app_server.py 2>&1 | tee /app/logs/backend.log"
+    # Reason 1: Capturing logs to a file enables persistent debugging
+    # Reason 2: Using tee maintains console output while also logging to file
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./logs:/app/logs
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - api
+    command: >
+      sh -c "node server.js 2>&1 | tee /app/logs/ui.log"
+    # Reason 1: Frontend logs are crucial for debugging UI rendering issues
+    # Reason 2: Separation of UI logs from backend simplifies issue tracking

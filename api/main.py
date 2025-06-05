@@ -6,22 +6,16 @@ from the API structure.
 """
 import os
 import sys
-import structlog
 from pathlib import Path
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
-# Configure structured logging
-structlog.configure(
-    processors=[
-        structlog.processors.add_log_level,
-        structlog.processors.TimeStamper(fmt="iso"),
-        structlog.processors.JSONRenderer(),
-    ],
-    logger_factory=structlog.stdlib.LoggerFactory(),
-)
+# Import enhanced logging configuration
+from api.logging_config import get_logger
 
-logger = structlog.get_logger("market_intel_api")
+# Create logger for this module
+logger = get_logger("market_intel_api")
 
 # Import routers
 from api.routers import pipeline, results, dashboard
@@ -51,9 +45,42 @@ app.include_router(pipeline.router)
 app.include_router(results.router)
 app.include_router(dashboard.router)
 
-# Create log directory if it doesn't exist
-log_dir = Path("logs")
-log_dir.mkdir(exist_ok=True)
+# Add exception handler for better error logging
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    logger.exception("Unhandled exception", 
+                    url=str(request.url),
+                    method=request.method,
+                    exception=str(exc))
+    return JSONResponse(
+        status_code=500,
+        content={"detail": "Internal Server Error", "message": str(exc)}
+    )
+
+# Add request logging middleware
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    logger.info(f"Request started", path=request.url.path, method=request.method)
+    try:
+        response = await call_next(request)
+        logger.info(f"Request completed", 
+                   path=request.url.path, 
+                   method=request.method,
+                   status_code=response.status_code)
+        return response
+    except Exception as e:
+        logger.exception(f"Request failed", 
+                        path=request.url.path, 
+                        method=request.method,
+                        error=str(e))
+        raise
+
+# Add health check endpoint
+@app.get("/health", tags=["monitoring"])
+async def health_check():
+    """Health check endpoint for the API"""
+    logger.info("Health check requested")
+    return {"status": "ok", "service": "market_intel_api"}
 
 
 @app.get("/", tags=["root"])

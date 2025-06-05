@@ -2,7 +2,7 @@
 Dashboard router for handling dashboard analytics requests
 """
 from fastapi import APIRouter
-from sqlmodel import select, col
+from sqlmodel import select, col, func
 from datetime import datetime
 
 from api.models.schemas import DashboardStats
@@ -18,7 +18,7 @@ async def get_dashboard_stats():
     with get_session() as session:
         # Get total products
         total_products = session.exec(
-            select(col(DiscoveredProduct.id).count())
+            select(func.count(DiscoveredProduct.id))
         ).one()
         
         # Get total unique domains
@@ -30,21 +30,25 @@ async def get_dashboard_stats():
         
         # Get total enriched domains
         enriched_domains = session.exec(
-            select(col(TrafficIntelligence.id).count())
+            select(func.count(TrafficIntelligence.id))
             .where(TrafficIntelligence.monthly_visits != None)
         ).one()
         
         # Get total keywords
+        from app.models.models import Keyword
+        
         total_keywords = session.exec(
-            select(DiscoveredProduct.discovery_keyword)
+            select(Keyword.keyword)
+            .join(DiscoveredProduct, Keyword.id == DiscoveredProduct.keyword_id)
             .distinct()
         ).all()
         
         # Get recent keywords (last 5)
         recent_data = session.exec(
-            select(DiscoveredProduct.discovery_keyword, DiscoveredProduct.discovered_at)
+            select(Keyword.keyword, DiscoveredProduct.first_discovered)
+            .join(DiscoveredProduct, Keyword.id == DiscoveredProduct.keyword_id)
             .distinct()
-            .order_by(col(DiscoveredProduct.discovered_at).desc())
+            .order_by(col(DiscoveredProduct.first_discovered).desc())
             .limit(5)
         ).all()
         
@@ -63,8 +67,11 @@ async def get_dashboard_stats():
 async def get_keywords():
     """Get all keywords that have been processed"""
     with get_session() as session:
+        from app.models.models import Keyword
+        
         keywords = session.exec(
-            select(DiscoveredProduct.discovery_keyword)
+            select(Keyword.keyword)
+            .join(DiscoveredProduct, Keyword.id == DiscoveredProduct.keyword_id)
             .distinct()
         ).all()
         

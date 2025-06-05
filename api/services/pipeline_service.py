@@ -71,11 +71,32 @@ async def run_pipeline(keyword: str, config: RunRequest):
             keyword=keyword,
             **{k: v for k, v in config.dict().items() if k != "keyword"}
         )
+        
+        # First, create or get the Keyword record in the database
+        from app.models.models import Keyword as KeywordModel
+        keyword_id = None
+        
+        with get_session() as session:
+            # Check if keyword already exists
+            existing_keyword = session.exec(
+                select(KeywordModel).where(KeywordModel.keyword == keyword)
+            ).first()
+            
+            if existing_keyword:
+                keyword_id = existing_keyword.id
+                logger.info(f"Using existing keyword record: {keyword}, id={keyword_id}")
+            else:
+                # Create new keyword record
+                new_keyword = KeywordModel(keyword=keyword)
+                session.add(new_keyword)
+                session.commit()
+                session.refresh(new_keyword)
+                keyword_id = new_keyword.id
+                logger.info(f"Created new keyword record: {keyword}, id={keyword_id}")
 
         # Run pipeline with our config 
-        # Currently run_single_keyword_pipeline only accepts keyword and max_ads
-        # We can extend it later to accept more parameters
-        results = run_single_keyword_pipeline(keyword, config.max_ads)
+        # Now we pass the keyword_id to ensure proper relation linking
+        results = run_single_keyword_pipeline(keyword, config.max_ads, keyword_id=keyword_id)
         
         # Update status with results
         status.step1_products = results.get("step1_products", 0)

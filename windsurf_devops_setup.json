@@ -1,0 +1,137 @@
+{
+  "kill_script": {
+    "path": "scripts/kill_all.sh", 
+    "content": "#!/bin/bash\n#\n# Kill script for resetting Windsurf development environment\n# Identifies and terminates orphaned backend and frontend processes\n\n# Set strict error handling\nset -e\n\necho \"🔄 Starting environment reset process...\"\n\n# Kill Python processes (Backend FastAPI)\necho \"🔍 Finding and killing Python processes...\"\npkill -f \"uvicorn.*api.main:app\" || echo \"No FastAPI processes found\" \n# Reason 1: FastAPI runs with uvicorn that might leave orphaned processes\n# Reason 2: We specifically target api.main:app to avoid killing unrelated Python processes\n\n# Kill Node.js processes (Frontend Next.js)\necho \"🔍 Finding and killing Node.js processes...\"\npkill -f \"node.*server.js\" || echo \"No Next.js processes found\"\n# Reason 1: Next.js server processes can continue running even after Docker is stopped\n# Reason 2: We target server.js to specifically kill the Next.js server\n\n# Kill any Docker containers related to our stack\necho \"🔍 Stopping Docker containers...\"\ndocker compose -f docker-compose.yml down 2>/dev/null || echo \"No Docker containers to stop\"\n# Reason 1: Docker containers may still be running and need to be explicitly stopped\n# Reason 2: Using compose down ensures volumes and networks are properly cleaned up\n\n# Free up specific ports\necho \"🔍 Checking and freeing ports...\"\n# Port 3000 (UI)\nlsof -ti:3000 | xargs kill -9 2>/dev/null || echo \"Port 3000 is free\"\n# Reason 1: Port 3000 is used by the Next.js frontend and must be available for restart\n# Reason 2: Force kill (-9) ensures the port is freed even if process is hanging\n\n# Port 8000 (API)\nlsof -ti:8000 | xargs kill -9 2>/dev/null || echo \"Port 8000 is free\" \n# Reason 1: Port 8000 is used by the FastAPI backend and must be available for restart\n# Reason 2: Using lsof ensures we kill processes regardless of what application is using them\n\n# Port 9229 (Node.js Debug)\nlsof -ti:9229 | xargs kill -9 2>/dev/null || echo \"Port 9229 is free\"\n# Reason 1: Port 9229 is used for Node.js debugging and must be freed\n# Reason 2: Debugging sessions can often be orphaned when development is interrupted\n\necho \"✅ Environment successfully reset!\"", 
+    "reasons": [
+      "Ensures a clean state by terminating all orphaned processes to prevent port conflicts and resource leaks",
+      "Provides specific targeting of process types (Python/Node.js) to avoid over-killing unrelated development processes"
+    ]
+  },
+  "log_setup": {
+    "path": "scripts/setup_logs.sh", 
+    "content": "#!/bin/bash\n#\n# Log setup script for Windsurf development environment\n# Creates and configures daily-rotating log files with proper permissions\n\n# Set strict error handling\nset -e\n\nAPP_DIR=\"/Users/salimzrouga/Desktop/COai product research/step1/minimal_app\"\nLOG_DIR=\"${APP_DIR}/logs\"\n\necho \"🔄 Setting up logging environment...\"\n\n# Ensure logs directory exists\nmkdir -p \"${LOG_DIR}\"\n# Reason 1: Directory might not exist in fresh clones\n# Reason 2: Ensures consistent location for all log files\n\n# Create log files with proper permissions if they don't exist\ntouch \"${LOG_DIR}/backend.log\"\n# Reason 1: Backend logs need to be collected for debugging FastAPI issues\n# Reason 2: Pre-creating the file ensures proper ownership and permissions\n\ntouch \"${LOG_DIR}/ui.log\"\n# Reason 1: UI logs help debug frontend Next.js rendering and API call issues\n# Reason 2: Separating frontend logs from backend helps with focused debugging\n\ntouch \"${LOG_DIR}/windsurf.log\"\n# Reason 1: Windsurf CLI logs need separate tracking to isolate framework issues\n# Reason 2: Centralizing Windsurf logs helps troubleshoot configuration problems\n\n# Create log rotation configuration\ncat > \"${APP_DIR}/logrotate.conf\" << EOF\n${LOG_DIR}/backend.log {\n    daily\n    rotate 7\n    compress\n    delaycompress\n    missingok\n    notifempty\n    create 0644 $(whoami) $(id -gn)\n    postrotate\n        touch ${LOG_DIR}/backend.log\n    endscript\n}\n\n${LOG_DIR}/ui.log {\n    daily\n    rotate 7\n    compress\n    delaycompress\n    missingok\n    notifempty\n    create 0644 $(whoami) $(id -gn)\n    postrotate\n        touch ${LOG_DIR}/ui.log\n    endscript\n}\n\n${LOG_DIR}/windsurf.log {\n    daily\n    rotate 7\n    compress\n    delaycompress\n    missingok\n    notifempty\n    create 0644 $(whoami) $(id -gn)\n    postrotate\n        touch ${LOG_DIR}/windsurf.log\n    endscript\n}\nEOF\n# Reason 1: Log rotation prevents disk space issues from log growth\n# Reason 2: Daily rotation with 7-day history provides sufficient debugging trail\n\n# Configure Windsurf to tail logs\ncat > \"${APP_DIR}/.windsurf.yml\" << EOF\nlog_config:\n  enabled: true\n  live_tail: true\n  files:\n    - path: ${LOG_DIR}/backend.log\n      type: backend\n      # Reason 1: Identifying backend logs helps filter views in the Windsurf dashboard\n      # Reason 2: Backend logs need higher priority for debugging API issues\n      \n    - path: ${LOG_DIR}/ui.log\n      type: frontend\n      # Reason 1: UI logs need separate tracking from backend for cleaner debugging\n      # Reason 2: Different formatting rules apply to frontend vs backend logs\n      \n    - path: ${LOG_DIR}/windsurf.log\n      type: system\n      # Reason 1: System logs from Windsurf need different parsing rules\n      # Reason 2: Separating Windsurf logs allows targeted debugging of the framework\nEOF\n# Reason 1: Windsurf needs explicit configuration to know which logs to tail\n# Reason 2: Configuration ensures consistent log management across team environments\n\necho \"✅ Log setup complete! Logs will be available in ${LOG_DIR}\"\necho \"✅ Windsurf configured to tail logs in real-time\"", 
+    "reasons": [
+      "Establishes a standardized logging environment with daily rotation for maintainable log sizes and history",
+      "Creates separate streams for backend, frontend, and system logs to simplify debugging and isolate issues"
+    ]
+  },
+  "startup_script": {
+    "path": "scripts/start_stack.sh", 
+    "content": "#!/bin/bash\n#\n# Stack startup script for Windsurf development environment\n# Starts the FastAPI backend and Next.js frontend with Docker Compose\n\n# Set strict error handling\nset -euo pipefail\n\nAPP_DIR=\"/Users/salimzrouga/Desktop/COai product research/step1/minimal_app\"\ncd \"${APP_DIR}\"\n\n# Create docker-compose.dev.yml file with log configurations\necho \"🔄 Creating development Docker Compose file with log configurations...\"\ncat > \"${APP_DIR}/docker-compose.dev.yml\" << EOF\nversion: '3.8'\n\nservices:\n  api:\n    build:\n      context: .\n      dockerfile: Dockerfile.api\n    ports:\n      - \"8000:8000\"\n    volumes:\n      - ./logs:/app/logs\n      - ./data:/app/data\n      - ./.env:/app/.env\n    environment:\n      - CORS_ORIGIN=http://localhost:3000\n    healthcheck:\n      test: [\"CMD\", \"curl\", \"-f\", \"http://localhost:8000/health\"]\n      interval: 15s\n      timeout: 10s\n      retries: 3\n      start_period: 10s\n    command: >\n      sh -c \"python app_server.py 2>&1 | tee /app/logs/backend.log\"\n    # Reason 1: Capturing logs to a file enables persistent debugging\n    # Reason 2: Using tee maintains console output while also logging to file\n\n  frontend:\n    build:\n      context: ./frontend\n      dockerfile: Dockerfile\n    ports:\n      - \"3000:3000\"\n    volumes:\n      - ./logs:/app/logs\n    environment:\n      - NEXT_PUBLIC_API_URL=http://localhost:8000\n    depends_on:\n      - api\n    command: >\n      sh -c \"node server.js 2>&1 | tee /app/logs/ui.log\"\n    # Reason 1: Frontend logs are crucial for debugging UI rendering issues\n    # Reason 2: Separation of UI logs from backend simplifies issue tracking\nEOF\n# Reason 1: Custom dev compose file allows development-specific configurations\n# Reason 2: Separating dev from production compose improves deployment pipeline safety\n\necho \"🔄 Loading environment variables from .env...\"\n# Source environment variables\nif [ -f .env ]; then\n    set -o allexport\n    source .env\n    set +o allexport\n    # Reason 1: Environment variables configure app behavior properly\n    # Reason 2: Loading .env ensures consistent configuration across services\nelse\n    echo \"⚠️ Warning: .env file not found, using default configurations\"\nfi\n\n# Ensure log directory exists\nmkdir -p logs\n# Reason 1: Logs directory must exist before container mounting\n# Reason 2: Ensures Docker doesn't create directory with root ownership\n\necho \"🔄 Starting services with Docker Compose...\"\ndocker compose -f docker-compose.dev.yml up --build -d\n# Reason 1: Building ensures latest code changes are included\n# Reason 2: Detached mode (-d) allows script to continue for health checks\n\necho \"🔄 Waiting for services to be healthy...\"\n# Function to check if API is healthy\ncheck_api_health() {\n    curl -s http://localhost:8000/health > /dev/null\n    return $?\n}\n\n# Function to check if frontend is running\ncheck_frontend_health() {\n    curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000 | grep -q \"200\\|304\"\n    return $?\n}\n\n# Wait for API to become healthy\necho \"  ⏳ Waiting for API to become available...\"\nCOUNTER=0\nuntil check_api_health || [ $COUNTER -eq 30 ]; do\n    echo -n \".\"\n    sleep 2\n    ((COUNTER++))\ndone\n\nif [ $COUNTER -eq 30 ]; then\n    echo \"❌ API failed to start properly within timeout period\"\n    echo \"   Check logs at: ${APP_DIR}/logs/backend.log\"\n    exit 1\nfi\necho \"✅ API is healthy!\"\n\n# Wait for frontend to become healthy\necho \"  ⏳ Waiting for frontend to become available...\"\nCOUNTER=0\nuntil check_frontend_health || [ $COUNTER -eq 30 ]; do\n    echo -n \".\"\n    sleep 2\n    ((COUNTER++))\ndone\n\nif [ $COUNTER -eq 30 ]; then\n    echo \"❌ Frontend failed to start properly within timeout period\"\n    echo \"   Check logs at: ${APP_DIR}/logs/ui.log\"\n    exit 1\nfi\necho \"✅ Frontend is healthy!\"\n\n# Start tailing logs with Windsurf\necho \"🔄 Starting log streaming with Windsurf...\"\n( windsurf logs --combined > ./logs/windsurf.log 2>&1 & )\n# Reason 1: Background streaming ensures logs are captured from the beginning\n# Reason 2: Combined logs provide a chronological view of the entire stack\n\necho \"\"\necho \"🟢 STACK READY\"\necho \"   API: http://localhost:8000\"\necho \"   UI: http://localhost:3000\"\necho \"   Logs: ${APP_DIR}/logs/\"", 
+    "reasons": [
+      "Creates a development-specific compose file with proper log capturing and environmental awareness",
+      "Implements health checks with timeouts to ensure both services start successfully before declaring stack ready"
+    ]
+  },
+  "test_plan": {
+    "steps": [
+      {
+        "action": "Open http://localhost:3000 in browser after stack is ready",
+        "reasons": [
+          "Verifies that frontend service is accessible and rendered correctly",
+          "Establishes baseline for subsequent UI interaction tests"
+        ]
+      },
+      {
+        "action": "Navigate to Settings page and verify environment variables are editable",
+        "reasons": [
+          "Confirms that configuration UI is working properly",
+          "Tests critical functionality needed for subsequent pipeline operations"
+        ]
+      },
+      {
+        "action": "Edit an environment variable and verify it persists after refresh",
+        "reasons": [
+          "Tests that configuration state is properly saved to backend",
+          "Verifies that settings changes survive page reloads"
+        ]
+      },
+      {
+        "action": "Navigate to dashboard and enter keyword 'windsurf_test'",
+        "reasons": [
+          "Tests search functionality which is critical to pipeline operation",
+          "Uses a known test keyword that should have defined behavior"
+        ]
+      },
+      {
+        "action": "Click 'Run Pipeline' button with the windsurf_test keyword",
+        "reasons": [
+          "Triggers the core business logic of the application",
+          "Initiates a process that exercises both frontend and backend components"
+        ]
+      },
+      {
+        "action": "Monitor the combined logs from terminal to verify pipeline progress",
+        "reasons": [
+          "Validates that log streaming is properly configured",
+          "Provides real-time visibility into pipeline execution"
+        ]
+      },
+      {
+        "action": "Verify 'STEP 1 COMPLETE – n products saved' appears in logs",
+        "reasons": [
+          "Confirms that product extraction phase of pipeline completed successfully",
+          "Tests that basic data processing functionality is working"
+        ]
+      },
+      {
+        "action": "Verify 'STEP 2 COMPLETE – m traffic rows' appears in logs",
+        "reasons": [
+          "Confirms that traffic analysis phase of pipeline completed successfully",
+          "Validates that multi-stage pipeline can process data end-to-end"
+        ]
+      },
+      {
+        "action": "Verify that n (product count) value is greater than 0",
+        "reasons": [
+          "Ensures actual products were found and processed",
+          "Tests that the system is making meaningful progress, not just going through motions"
+        ]
+      },
+      {
+        "action": "Verify that m (traffic rows) value is greater than 0",
+        "reasons": [
+          "Confirms traffic data was successfully processed",
+          "Validates full pipeline functionality with real data output"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    {
+      "issue": "Test keyword 'windsurf_test' may need to be updated if test data changes",
+      "reasons": [
+        "Test keywords are often environment-specific and may change",
+        "Using hardcoded test values can lead to false negatives if data changes"
+      ]
+    },
+    {
+      "issue": "Docker health checks may time out on slower systems",
+      "reasons": [
+        "Timeout values are fixed but hardware performance varies",
+        "Health check HTTP endpoints might take longer to start on resource-constrained systems"
+      ]
+    },
+    {
+      "issue": "Log rotation requires logrotate to be installed on host system",
+      "reasons": [
+        "Script depends on system utilities that may not be universally available",
+        "Docker environments don't automatically include host-level log rotation"
+      ]
+    },
+    {
+      "issue": "Hardcoded paths may need adjustment for different user environments",
+      "reasons": [
+        "Scripts contain absolute paths that vary between developers",
+        "More robust solution would dynamically determine paths"
+      ]
+    },
+    {
+      "issue": "Windsurf CLI must be installed separately; not verified in scripts",
+      "reasons": [
+        "Scripts assume Windsurf CLI is available in PATH",
+        "Missing dependency would cause log streaming to fail silently"
+      ]
+    }
+  ]
+}

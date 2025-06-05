@@ -1,0 +1,18 @@
+log_config:
+  enabled: true
+  live_tail: true
+  files:
+    - path: /Users/salimzrouga/Desktop/COai product research/step1/minimal_app/logs/backend.log
+      type: backend
+      # Reason 1: Identifying backend logs helps filter views in the Windsurf dashboard
+      # Reason 2: Backend logs need higher priority for debugging API issues
+      
+    - path: /Users/salimzrouga/Desktop/COai product research/step1/minimal_app/logs/ui.log
+      type: frontend
+      # Reason 1: UI logs need separate tracking from backend for cleaner debugging
+      # Reason 2: Different formatting rules apply to frontend vs backend logs
+      
+    - path: /Users/salimzrouga/Desktop/COai product research/step1/minimal_app/logs/windsurf.log
+      type: system
+      # Reason 1: System logs from Windsurf need different parsing rules
+      # Reason 2: Separating Windsurf logs allows targeted debugging of the framework

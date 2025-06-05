@@ -14,7 +14,7 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
  * Run pipeline for a keyword
  */
 export async function runKeywordPipeline(request: RunRequest): Promise<KeywordStatus> {
-  const response = await fetch(`${API_BASE_URL}/run`, {
+  const response = await fetch(`${API_BASE_URL}/pipeline/run`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -34,7 +34,7 @@ export async function runKeywordPipeline(request: RunRequest): Promise<KeywordSt
  * Get status for a keyword pipeline run
  */
 export async function getKeywordStatus(keyword: string): Promise<KeywordStatus> {
-  const response = await fetch(`${API_BASE_URL}/status/${keyword}`);
+  const response = await fetch(`${API_BASE_URL}/pipeline/status/${keyword}`);
   
   if (!response.ok) {
     const errorData = await response.json();

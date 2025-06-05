@@ -55,13 +55,14 @@ def log_domain_processing(domain: str, action: str, result: str):
     print(f"      • Result: {result}")
     logger.info(f"DOMAIN: {domain} | Action: {action} | Result: {result}")
 
-def run_single_keyword_pipeline(keyword: str, max_ads: int = 20) -> Dict[str, Any]:
+def run_single_keyword_pipeline(keyword: str, max_ads: int = 20, keyword_id: int = None) -> Dict[str, Any]:
     """
     Complete pipeline for a single keyword
     
     Args:
         keyword: Keyword to process
         max_ads: Maximum ads to scrape
+        keyword_id: ID of the keyword in the database (optional)
         
     Returns:
         Results dictionary with statistics
@@ -95,7 +96,7 @@ def run_single_keyword_pipeline(keyword: str, max_ads: int = 20) -> Dict[str, An
             keyword=keyword,
             max_ads=max_ads,
             timeout_seconds=300,
-            keyword_id=None,
+            keyword_id=keyword_id,  # Pass the keyword_id to properly link products
             enrich_traffic=False  # We'll do this manually in Step 2
         )
         
