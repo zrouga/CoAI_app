@@ -1,0 +1,3499 @@
+[
+  {
+    "ad_archive_id": "1312403257121695",
+    "page_id": "100912326411034",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "100912326411034",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/100094622199249/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Frameit",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494436431_1403351660677989_4736876328439731449_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GUuUnuJmEHQQ7kNvwH2HPdo&_nc_oc=AdmSF6VEFYX1DQuEs3CM2p1Byd9sREQ3QoxVo9mH8lmz0GDMUm4Ng7Mtoh4DXGTpyVk&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJUowiWO3AfINLlYnsLukCKllZaw1aMI6YvWLhaYWg7qw&oe=6845F34C",
+      "body": {
+        "text": "@frameit_app offers a rich selection of preview scenes, so you can hang your artwork in the living room or have it appear in an exhibition, even edit the lighting to make it more realistic.🤩"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "itunes.apple.com",
+      "cards": [],
+      "cta_text": "Install now",
+      "cta_type": "INSTALL_MOBILE_APP",
+      "country_iso_code": null,
+      "current_page_name": "Frameit",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "http://itunes.apple.com/app/id1635507522",
+      "page_categories": [
+        "Software"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 361,
+      "title": "A new experience for artists on the application to create diverse and professional backgrounds for your paintings. Try @frameit_app",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/491478768_1175223794089046_7137727645714297531_n.?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jVuRFZnNCEkQ7kNvwEdWBbs&_nc_oc=AdntyymKR-hq8_UhyApQXIq21uhm9MD_3OIH8XfaoZgAdRjVYBO8RqmXkHZXwGffCYU&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJtiWb9LmZ2ol1wuH9mGM-wKYZawzcHvOwerBcI42FTGA&oe=6845EA44",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/496310662_1172785867978109_282476075673730841_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SVQg6Czd2coQ7kNvwH00n73&_nc_oc=AdnpIL32lPHzZu4y6hakMOYmmq0IL9et022IWj9hK0l_MsAXhJ3fELH2dta4r1N1_Dg&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJhJOUrSK6wRvK_8MOpn2qE9R3-_Dt1Iu1br5GgM7Ctnw&oe=684611E6",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/496395384_1870401267116072_8365490741831853770_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e0T4RxZ8wyMQ7kNvwGlDSdj&_nc_oc=AdkYSLyenlco44SJg37KwfSq1pPywJqSYvLowGHTQFyZ3GkCdmxFLW2rwFojGp2mazE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLu2eeHmvBHZM5DK5eJ1gu1-dNvFtckuxm2jgAq1TH8EQ&oe=6845EC97",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Frameit",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 2,
+    "collation_id": "661189486693853",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": true,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1748415600,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1175223760755716",
+    "page_id": "100912326411034",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "100912326411034",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/100094622199249/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Frameit",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494436431_1403351660677989_4736876328439731449_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GUuUnuJmEHQQ7kNvwH2HPdo&_nc_oc=AdmSF6VEFYX1DQuEs3CM2p1Byd9sREQ3QoxVo9mH8lmz0GDMUm4Ng7Mtoh4DXGTpyVk&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJUowiWO3AfINLlYnsLukCKllZaw1aMI6YvWLhaYWg7qw&oe=6845F34C",
+      "body": {
+        "text": "@frameit_app offers a rich selection of preview scenes, so you can hang your artwork in the living room or have it appear in an exhibition, even edit the lighting to make it more realistic.🤩"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "itunes.apple.com",
+      "cards": [],
+      "cta_text": "Install now",
+      "cta_type": "INSTALL_MOBILE_APP",
+      "country_iso_code": null,
+      "current_page_name": "Frameit",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "http://itunes.apple.com/app/id1635507522",
+      "page_categories": [
+        "Software"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 361,
+      "title": "A new experience for artists on the application to create diverse and professional backgrounds for your paintings. Try @frameit_app",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/491478768_1175223794089046_7137727645714297531_n.?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jVuRFZnNCEkQ7kNvwEdWBbs&_nc_oc=AdntyymKR-hq8_UhyApQXIq21uhm9MD_3OIH8XfaoZgAdRjVYBO8RqmXkHZXwGffCYU&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJtiWb9LmZ2ol1wuH9mGM-wKYZawzcHvOwerBcI42FTGA&oe=6845EA44",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/496310662_1172785867978109_282476075673730841_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SVQg6Czd2coQ7kNvwH00n73&_nc_oc=AdnpIL32lPHzZu4y6hakMOYmmq0IL9et022IWj9hK0l_MsAXhJ3fELH2dta4r1N1_Dg&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJhJOUrSK6wRvK_8MOpn2qE9R3-_Dt1Iu1br5GgM7Ctnw&oe=684611E6",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/496395384_1870401267116072_8365490741831853770_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e0T4RxZ8wyMQ7kNvwGlDSdj&_nc_oc=AdkYSLyenlco44SJg37KwfSq1pPywJqSYvLowGHTQFyZ3GkCdmxFLW2rwFojGp2mazE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLu2eeHmvBHZM5DK5eJ1gu1-dNvFtckuxm2jgAq1TH8EQ&oe=6845EC97",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Frameit",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "661189486693853",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": true,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1746774000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "29731032159874595",
+    "page_id": "651118378080452",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "651118378080452",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/61575794781819/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Jason’s Digital Lab",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/496154894_1206604331210247_1158248625680142058_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eLPiyymxBRIQ7kNvwEgRsyR&_nc_oc=Adl11TbT1iw5aBpc6V-OeLt26VGukdYJCkHdGHNAagCM3wMBlM8uheTjQpAd-5mm800&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKRvym5pqOiUBaQgPhH8dSAVnzJubhSSGrvMDFUcFoFmA&oe=6845FE90",
+      "body": {
+        "text": "We’re inviting people to beta test our new AI app, designed for beginners and built to potentially help you start earning online. It’s fully beginner-friendly! If you’re ready to test it out as a beta tester, just tap the link below to reach out and get started."
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "fb.com",
+      "cards": [],
+      "cta_text": "Learn more",
+      "cta_type": "LEARN_MORE",
+      "country_iso_code": null,
+      "current_page_name": "Jason’s Digital Lab",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": "New AI App designed for beginners and built to potentially help you start earning online",
+      "link_url": "https://fb.com/messenger_doc/",
+      "page_categories": [
+        "Business"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 1154,
+      "title": "Tap to Test Our AI App (Beginner-Friendly)",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/491510685_1581638835847030_8831110781232384973_n.?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1ISqYM7_66oQ7kNvwEc12ib&_nc_oc=Adns5m90nIIcdcSXwrj4ZFtnK4t4ugHWyrmwsQKn232EVfcePaYKB2UJUXTvqCXNwAk&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLDibY98MuXjC3Al3Rs2MKGSckvD1V73lSruRY9oGvDcA&oe=6846129E",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/495019560_1001892272089676_7979832554770126137_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3pzcxebgaKQQ7kNvwHDiA_X&_nc_oc=AdkQJLlxDQkstdCupLHMbLpRi0p3LevxIuDSb-6e9ESN41TuZ0dbpBSEceMaiTZrdQM&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIObjBLkAZueNt-GJwP8Q2LAxY0sXJYGON8OUS6i_DTzA&oe=6845E9AA",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/495294868_1688866331757148_3147230328018453163_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RqDnogpKzBAQ7kNvwGVDMOA&_nc_oc=AdmZ00BpeoQUMF3o0Vy9cY5K6hhpJ3oy-qJeN9zLi6mJCNR2BTCA5PqTwMfMeF67oec&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKUmj4qAhUfDESBRCjH12DlRNzpbIW7u4J04ZpQ_1ceVg&oe=68460744",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Jason’s Digital Lab",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 2,
+    "collation_id": "1031496798915503",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1747897200,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1747220182810873",
+    "page_id": "651118378080452",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "651118378080452",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/61575794781819/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Jason’s Digital Lab",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/496154894_1206604331210247_1158248625680142058_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eLPiyymxBRIQ7kNvwEgRsyR&_nc_oc=Adl11TbT1iw5aBpc6V-OeLt26VGukdYJCkHdGHNAagCM3wMBlM8uheTjQpAd-5mm800&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKRvym5pqOiUBaQgPhH8dSAVnzJubhSSGrvMDFUcFoFmA&oe=6845FE90",
+      "body": {
+        "text": "We’re inviting people to beta test our new AI app, designed for beginners and built to potentially help you start earning online. It’s fully beginner-friendly! If you’re ready to test it out as a beta tester, just tap the link below to reach out and get started."
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "fb.com",
+      "cards": [],
+      "cta_text": "Learn more",
+      "cta_type": "LEARN_MORE",
+      "country_iso_code": null,
+      "current_page_name": "Jason’s Digital Lab",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": "New AI App designed for beginners and built to potentially help you start earning online",
+      "link_url": "https://fb.com/messenger_doc/",
+      "page_categories": [
+        "Business"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 1154,
+      "title": "Tap to Test Our AI App (Beginner-Friendly)",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/491510685_1581638835847030_8831110781232384973_n.?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1ISqYM7_66oQ7kNvwEc12ib&_nc_oc=Adns5m90nIIcdcSXwrj4ZFtnK4t4ugHWyrmwsQKn232EVfcePaYKB2UJUXTvqCXNwAk&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLDibY98MuXjC3Al3Rs2MKGSckvD1V73lSruRY9oGvDcA&oe=6846129E",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/495019560_1001892272089676_7979832554770126137_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3pzcxebgaKQQ7kNvwHDiA_X&_nc_oc=AdkQJLlxDQkstdCupLHMbLpRi0p3LevxIuDSb-6e9ESN41TuZ0dbpBSEceMaiTZrdQM&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIObjBLkAZueNt-GJwP8Q2LAxY0sXJYGON8OUS6i_DTzA&oe=6845E9AA",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/495294868_1688866331757148_3147230328018453163_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RqDnogpKzBAQ7kNvwGVDMOA&_nc_oc=AdmZ00BpeoQUMF3o0Vy9cY5K6hhpJ3oy-qJeN9zLi6mJCNR2BTCA5PqTwMfMeF67oec&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKUmj4qAhUfDESBRCjH12DlRNzpbIW7u4J04ZpQ_1ceVg&oe=68460744",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Jason’s Digital Lab",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1031496798915503",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1747465200,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "544099395236362",
+    "page_id": "134179943800",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "134179943800",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/growthbysabir/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Growth By Sabir - Sabir Semerkant",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/499410306_1700042490719601_3906123289377528672_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kWOFVAjn7iQQ7kNvwGjd5mv&_nc_oc=Adlp78aBo-Y1RwjCi_L_ceR7Ehdx17fW_8TiKQMNMK3vu2soxnY_Ys4v8ksYLTB5qCM&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfInRwWGTGTd-DyLDEhF-AzaBrTTg9a_TYSHhOkwfNLElA&oe=6845DC8F",
+      "body": {
+        "text": "🚨 ATTENTION E-COMMERCE FOUNDERS 🚨\n\nIf you're like the majority of DTC E-Commerce brands then you're probably feeling the pinch right now.\n\nAd costs are rising by the day.\n\nConversion rates are on the decline.\n\nCart abandonment rates are at an all-time high.\n\nAnd email open rates are at an all-time low.\n\nAnd let’s not even mention the tariffs, oh the tariffs.\n\nThe list just goes on and on…\n\nAnd to make it even worse, every single day more and more competitors enter the market who are trying to steal your customers right from under your nose.\n\nIt's hard not to feel like the odds are stacked against you.\n\nThe reality is that most DTC E-Commerce brands are struggling to acquire customers PROFITABLY in today’s market, especially with paid ads, and if they don’t fix this issue asap they are looking down the barrel or bankruptcy in the next 6-12 months.\n\nYou see, most E-Commerce businesses fail NOT because they don't have a great product, service, story, or brand…\n\nThey fail because they get too busy running the business and never get the chance to sit down and optimize their entire sales funnel holistically and end up running traffic to a suboptimal store that leaks sales left and right which robs them of their profit margins and makes it impossible to scale.\n\nAnd to make it worse, they end up hiring unqualified “agencies”, “gurus”, and “experts” who simply don’t have the broad expertise and real world experience to help them fix this issue and end up flushing even more $$$ down the drain.\n\nThe result…\n\nLow ROAS numbers that barely cover their costs…\n\nAd campaigns that won’t scale profitably…\n\nMounting overheads… \n\n…and constant stress, anxiety, and uncertainty.\n\nBut what if I was to tell you that there is a solution.\n\nAn optimization framework and proven protocol you can use to 2X your sales conversions in under 6 weeks flat…\n\nA framework that has already been iterated and tested on more than 70 brands across 17 different product categories and 14 different counties spanning over 4 continents in the past 12 months alone.\n\nBut more importantly, a framework that has unlocked over 108% growth on average in the first 21 days for the brands who have implemented it.\n\nA framework that has taken brands that came in doing a couple of hundred thousand per year to 8-figures in under 10 months.\n\nA framework that has taken brands that were trending downwards year over year and got them back on track to positive growth in a matter of weeks.\n\nA framework that has taken brands from over a million dollars in debt (ouch) and turned them into hyper-profitable cash generating machines that have investors lining up.\n\nA framework that doesn’t rely on the latest “tactic”, “hack”, or “strategy” that works today and is dead by lunchtime tomorrow…\n\nA framework that doesn't involve hoping, praying, or sheer luck.\n\nBut a data-driven approach to growth that gives you predictability in your marketing for once and for all and allows you to scale at your own pace and on your own terms.\n\nA systematic, holistic methodology that is the result of more than 25 years in the trenches working with some of the best known E-Commerce brands in the world such as Canon, Tommy Hilfiger, Ashley Stewart, and many more.\n\nMy name is Sabir Semerkant and I call this framework “Rapid 2X™️”.\n\n...and if you are an E-Commerce founder who is struggling to scale profitably then this might just be the answer to your prayers.\n\nRapid 2X is a holistic optimization framework I developed to help early stage Ecommerce brands maximize their sales conversions so they can scale profitably and unlock growth potential that most founders don't even know is there for the taking.\n\nGrowth that is hidden in plain sight, camouflaged beneath all of the mess and complexity that goes hand in hand with running an e-commerce business.\n\nAds, landing pages, upsells, downsells, crosssells, email flows, loyalty programs, etc.\n\nIt’s enough to make your head spin.\n\nYou need everything to be optimized across the entire chain if you want to compete for business in today’s hyper competitive market, especially if you are using paid ads, and the reality is that most brands are optimized to a 6/10 at best.\n\nBut imagine what it would feel like to unlock that additional growth for your brand?\n\nTo see your ROAS numbers increase by 50-150%.\n\nTo go to bed every single night safe and secure knowing that you have the correct systems in place that are working for you around the clock on autopilot to suck in your ideal customers and squeeze out every last sale from your advertising dollars and maximize your ROAS.\n\nTo wake up to a dashboard with tens or even hundreds of new orders every single morning.\n\nTo be in complete control and have the ability to grow your sales with predictability while maximizing your margins regardless of what is happening in the market.\n\nWhat would that mean for your brand?\n\nOr more importantly, what would this mean for you and your entire company?\n\nMore revenue.\nMore profits.\n\nMore exposure.\n\nMore influence.\n\nMore investment.\n\nMore fun.\n\nProbably.\n\nLess stress.\n\nLess anxiety.\n\nLess uncertainty.\n\nFewer arguments.\n\nSurely.\n\nBut more than anything, this methodology gives you the one thing that every business owner on the planet wants...\n\nMore FREEDOM.\n\nThe freedom to grow your brand ON YOUR TERMS.\n\nThe freedom to invest in long-term strategies that will yield even bigger returns down the road.\n\nThe freedom to think big and stop worrying about just getting by.\n\nThe freedom to THRIVE.\n\nNo more hoping and praying that your marketing dollars produce a ROAS above breakeven.\n\nNo more relying on Uncle Facebook and Aunt Google to bring home the bacon so you can pay your staff.\n\nNo more feeling like you are rolling the dice every single month and crossing your fingers that this isn't the month when the wheels fall off and it all goes horribly wrong.\nJust complete clarity and confidence that your brand is on the right track with the right strategies in place to grow PROFITABLY.\n\nHere are just a few of my success stories to date using this method:\n\n✅ Ashley Stewart from 3M - 30M in under 2 years\n\n✅ The Vitamin Shoppe from 12M - 55M in 4.5 years\n\n🔥 In the past 12 months alone I helped more than 70 E-Commerce brands across 17 different product categories grow by an average of 108% in under 21 days by implementing this framework.\n\n👉 Brands like The Aurum Brothers, a Netherlands based men's jewelry brand, who felt like they had tried everything after working with multiple experts and were stuck at 1.5M for more than 2 years with mounting debt who experienced a 146% increase in sales in the first 21 days, hit 3M within 10 months, and are now on track to hit 7M.\n\n👉 Brands like global luxury luggage company Globe Trotter who experienced a 334% increase in conversions across all 3 of their international stores in under 30 days\n\n👉 Brands like women’s water-sports and professional swimwear business, Wallien, who saw an 88% increase in sales in under 30 days.\n\nIn fact, I have more than 50 independent reviews from DTC E-Commerce founders from all over the world operating in every category known to man who swear by this framework.\n\nClick below to learn more…\n\nWhat do you have to lose?"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "growthbysabir.com",
+      "cards": [],
+      "cta_text": "Learn more",
+      "cta_type": "LEARN_MORE",
+      "country_iso_code": null,
+      "current_page_name": "Growth By Sabir - Sabir Semerkant",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "https://growthbysabir.com/workshop/?utm_source=ads&utm_medium=meta&utm_campaign={{campaign.name}}&utm_content={{ad.name}}&utm_term={{adset.name}}",
+      "page_categories": [
+        "Personaje público"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 611,
+      "title": "Discover why Ecom brand owners are raving about Rapid 2X™️",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/499649158_1217449703203755_8107741016369026912_n.?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7n4OqiMXFUcQ7kNvwFUf_K0&_nc_oc=AdkGLYGcxfy10PhgAF_w7C1B6F_ir6It5xDXKVa2O1DoNSz8e2E2YVfMSMJ3Uov2-Sc&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIQpUqaItM-tFJx0oJ3T8BtNrYkUkF1E6cvENwnjmNGAA&oe=68460448",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/500017113_1006177268395080_1293388058458323322_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UCsMs911HBoQ7kNvwG8asZK&_nc_oc=AdlRCkNOU9sFScSeoX7_a48_fF_kcJhQmg7jkux_sxiyLmZB_wrBIrNmlw0qEVgMsQA&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKAq4l1_Yg88FR_Xl12jTUw6b9FoShLlC2osDpraTI2SQ&oe=6845FB17",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/463605551_1596463497921977_840487506363593645_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ko2C4xalShIQ7kNvwGZOZ89&_nc_oc=Admh6aj-g9fPiLIhMqiSpTAbOlp6aGfuHku4M4eWrp8iex2PF4SNCbUkAUeqCL5tLlw&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfI6NZsxp8ZKBJm9m0L2I00DKlV2c-bU2-Zs4J4dhUbO_A&oe=6845EB3C",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Growth By Sabir - Sabir Semerkant",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 2,
+    "collation_id": "1420419388980685",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": true,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1747724400,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "27526482453608101",
+    "page_id": "651118378080452",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "651118378080452",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/61575794781819/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Jason’s Digital Lab",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/495595289_2750308405178410_1670734863308185222_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Iuxp3UXzr4QQ7kNvwFUf2qJ&_nc_oc=AdkNj9BJxGoHZmrChkl4caJCB9eHbb-qkmDagpOa2yTeof1_OIPIXrWzT1Y6_V4GiMQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJ6Meh-IdmMAF4uxtJfp_v2a1ZBO5mKz_wK1Ek3mhChaA&oe=68460E98",
+      "body": {
+        "text": "We’re inviting people to beta test our new AI app, designed for beginners and built to potentially help you start earning online. It’s fully beginner-friendly! If you’re ready to test it out as a beta tester, just tap the link below to reach out and get started."
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "fb.com",
+      "cards": [],
+      "cta_text": "Learn more",
+      "cta_type": "LEARN_MORE",
+      "country_iso_code": null,
+      "current_page_name": "Jason’s Digital Lab",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": "New AI App designed for beginners and built to potentially help you start earning online",
+      "link_url": "https://fb.com/messenger_doc/",
+      "page_categories": [
+        "Business"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 1154,
+      "title": "Tap to Test Our AI App (Beginner-Friendly)",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/491478070_944758887596977_2482250202073102723_n.?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xcUrIlZHVqUQ7kNvwEXwapt&_nc_oc=AdkfLynRsbwGzI3ZhFVXklu7eR2rG8frwX5sWRs9wJz5pQ3WhWuAmgGNOJ3N3BkYvm0&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIqZquzGf7-xdQpvYKYUbDwHSjx7ytmbKOBGHnKlhkxVQ&oe=68460FAC",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/495397486_4022039551402921_1413061849202351695_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Y5F1mUfEd-MQ7kNvwGU82ny&_nc_oc=Adkv4Ubg2bgZU8x0Y_R3q2t8wcpHUd_j0sVTUFUbQsFT1vFeo16HyUrRHiBQGe1YTlY&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIJNyTniSWxm9q-B-Er9x-Rbgz2z6wgeBfhhzVUSySveA&oe=6845F3D3",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/495259160_2630323827158654_16862129137874907_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=6HWiwYEvVZUQ7kNvwGlEjco&_nc_oc=Adl-MR2lwHdK8jz4wtFzzDKjLSzP05dSFbKg6IpFlecagi4NX0luss_MfTBG6QwK384&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfI39cNe5oKxz-4psrZGH9ABKmUhhkEs-eDPHgalufWVBQ&oe=6845E572",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Jason’s Digital Lab",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "697747979406386",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1747465200,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1041660124579240",
+    "page_id": "651118378080452",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "651118378080452",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/61575794781819/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Jason’s Digital Lab",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/495258516_679235498173054_8628191836254460331_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=aKoW6BKR3NUQ7kNvwGfhogC&_nc_oc=AdlGyJvCtOnDAB3JmkmarTeD44NIXMGCjR2kcrzs-5_Sl9hfsEEO_00cXYEDcMu42RY&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJEN_uxTsbpJKpfWnw3BKcRZ8j-QJYMnBixgEg4_az2qA&oe=68460D07",
+      "body": {
+        "text": "We’re inviting people to beta test our new AI app, designed for beginners and built to potentially help you start earning online. It’s fully beginner-friendly! If you’re ready to test it out as a beta tester, just tap the link below to reach out and get started."
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "fb.com",
+      "cards": [],
+      "cta_text": "Learn more",
+      "cta_type": "LEARN_MORE",
+      "country_iso_code": null,
+      "current_page_name": "Jason’s Digital Lab",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": "New AI App designed for beginners and built to potentially help you start earning online",
+      "link_url": "https://fb.com/messenger_doc/",
+      "page_categories": [
+        "Business"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 1154,
+      "title": "Tap to Test Our AI App (Beginner-Friendly)",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/494790591_654563897418810_4520155755012790368_n.?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8Mk1rtVm2VwQ7kNvwHzuWCR&_nc_oc=AdmMTom8oSVSaPyGdj35NgAji3r0DCRDuMZokjdCPPpaYKHjRGNn3VtS6_RzvEsHQdw&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIU8r53TyISS2CCDLu-g2BuC72fUh4epTq6RtOzL3i9Cw&oe=6845F1F1",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/496344511_1484103415887442_6797134370276010213_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0LTRYL_GoowQ7kNvwG0guyw&_nc_oc=AdnRvGFfCZMpJatl_aN-tEKBqctZN2dQZ-QSEO0U4jYvixIUp1b8oMlnrLRBVQVTWX0&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLwkUla-3cZNTfBhaTcGRRA40jIIcmS0Vyd62RQYWHqnA&oe=68460750",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/491489484_2972335996274116_7529577801210520332_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HGd8tFcrRqMQ7kNvwFIcABZ&_nc_oc=AdlR13pyXjGaf8N4ZZE8Xf--GEpEfuahpx-SN_PiXUWpa6j0OoTpaaveJYotS9OndQE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJwZCoRnfwA1LT3ttbvPpJXG7qnunU1DqYtTjEcIHBVCg&oe=6845F145",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Jason’s Digital Lab",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "682757471149075",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1747465200,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "701686752230440",
+    "page_id": "1615570505355535",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "1615570505355535",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/100063917623085/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Volunteer Audio",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/497964413_3151159045062339_385276515549517502_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=czc8qyjHDmIQ7kNvwFlqvYb&_nc_oc=AdlGqt-bClykUMCUjsEykYGMn-Ob6paO-vNu5ZjttKF0ZyJ6llFp_X-Im20QDHLDCw8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKE9ABaO6yyJyIBiRiIS1sW9u456FmHVDy7VSFFLpM-nw&oe=6845E4B5",
+      "body": {
+        "text": "Must Watch to get the Best Sound! The Correct Settings to Make your SeirenHD A2B System Loud at any Speed!!\n\n🔊 Want LOUDER, CLEANER, and BETTER sound from your Volunteer Audio SeirenHD A2B system? You're probably not using it to its full potential — but don't worry, we’ve got you covered. In this video, we break down some simple setup tips that make a BIG difference. 💥\n\n✅ Step-by-step instructions\n✅ Common mistakes to avoid\n\nThis is the video you need! It's time to make your 2023.5+ Harley Davidson sound like it should!\n\nDownload the  A2B Setup Guide here:\nhttps://volunteeraudio.com/wp-content/uploads/2025/05/A2B_Setup_Guide_2025.pdf.zip\n\nTo Purchase the Seiren HD Universal A2B Amplifier Replacement interface for 2023.5 and New Harley Davidson with Built in DSP click the link below\n\nhttps://volunteeraudio.com/product/volunteer-audio-universal-hd-a2b-amplifier-replacement-interface-for-2023-5-up-harley-davidson-motorcycles-2-2\n\n🚀 Check Out Our Full Plug & Play Audio Systems!\n\nWe build custom amplifier & speaker upgrade packages using the best brands for your Harley-Davidson®!\n✔ 100% Plug & Play – No cutting, No splicing!\n✔ DIY or Professional Installation Available\n✔ Step-by-Step Install Videos at VolunteerAudio.com!\n\n💰 Need Financing? Get 0% Interest for up to 24 months through Affirm or PayPal Credit!\n\nMore on Affirm here:\nhttps://www.affirm.com/how-it-works\n\n📞 Call us today at 1-844-30AUDIO for pricing, options, and installation appointments!\n\n#HarleyDavidsonAudio #VolunteerAudio #AppleCarPlay #PlugAndPlay #motorcycleaudio  #harleydavidson"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "www.volunteeraudio.com",
+      "cards": [],
+      "cta_text": "Shop now",
+      "cta_type": "SHOP_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Volunteer Audio",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "http://www.volunteeraudio.com/",
+      "page_categories": [
+        "Retail company"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 16338,
+      "title": "Must Watch to get the Best Sound! The Correct Settings to Make your SeirenHD A2B System Loud at any Speed!!",
+      "videos": [
+        {
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/498046467_681284001494894_4433946099095718066_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Z9RGiL_x6eoQ7kNvwH2Ak1C&_nc_oc=Adk2zzmIDzSKcFJoLdU6OBWX28wtwzKFam23pm-XEL0Yi-K4-OIesWQU5lf029Y8FC4&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfL3p3gPcZxuqnX5D6jerpIpFqcUw9jZ9VsOHkh60GYDQw&oe=68461308",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_1215321753311256_8009296556366788045_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=v9-otftoXR8Q7kNvwFVm-Kq&_nc_oc=AdlG6n14Sf_WZW4od1xKof9Y7qE9jO8sgmcRfX3TCBdSYd_KMDq6vhgV5osFV4fkSjQ&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJBi9r4lHOSmOOsgg3hnV_zQ1pbwNKVrk2MYl3IbV0A9Q&oe=6845FDEF",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Volunteer Audio",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "1272822190940010",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1747378800,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "993324159224209",
+    "page_id": "1546800225408428",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "1546800225408428",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/voromotors/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "VoroMotors",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494477062_705727985297791_4172881500967515639_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=E1uKsXk2CzMQ7kNvwGz6obx&_nc_oc=AdnaxfLly8-iueMuLkJ1ywrDRLPe4vvZ0Oe0QLTTeSHAmfJIW71tyMnERFEqjbY1KE8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIBFXHevPtcTUUK9WhNTDTltwJub0wLEzETg7JpLvNX7w&oe=6845F156",
+      "body": {
+        "text": "🔥 Full Review is Live: EMOVE Cruiser V2 All Wheel Drive 🔥  \nThis isn't just any scooter—at 60V 30AH, it’s the craziest value you can get at this price point, with real support behind it. 💪🛴  \n\n✅ Dual 1000W motors for serious power  \n✅ Insane range for all-day riding  \n✅ True split rim tires for easy maintenance  \n\nIf you want performance, reliability, and support—all under one roof—this is the scooter to watch. 🎥  \n\nGet yours here: https://www.voromotors.com/products/emove-cruiser-v2\n📺 Creator: Electric Vehicle Space"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "www.voromotors.com",
+      "cards": [],
+      "cta_text": "Shop now",
+      "cta_type": "SHOP_NOW",
+      "country_iso_code": null,
+      "current_page_name": "VoroMotors",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "https://www.voromotors.com/products/emove-cruiser-v2",
+      "page_categories": [
+        "Product/service"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 50210,
+      "title": "EMOVE Cruiser V2 All Wheel Drive Full Video Review",
+      "videos": [
+        {
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494525203_1435369090931263_9163928491452697371_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=gb8Jhc0py5UQ7kNvwGfReez&_nc_oc=AdkL_G5lU3GNQv6GNuoYXJmGeDlZ3XOEU71ESZaqfczoilEhskuI4ZBKBc7Aj3McLXQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLj8MoICZ5LPMVKarvXlAbaSGjgtB5VjrDla8WXEG_R6Q&oe=68460024",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_660051383612195_8995681127012023901_n.mp4?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=F3zRaEngcSsQ7kNvwFGff76&_nc_oc=AdkECkdm3cn7EpK9FssYPBeXtbV6SrekbrsEBOoUz6lN-REqTLAeWF9esHEQ7TatAYQ&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfL6_vSyw3U6Q4tjv3aO7nikNKNRx9-3FlxgHoWl7Q9Ekg&oe=68460680",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "VoroMotors",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "1373663450344387",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1745996400,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "2083769128789500",
+    "page_id": "810886569294789",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "810886569294789",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/spider.grills/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Spider Grills",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494199242_1862028297972963_5131368815162322757_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BzuiBBhZvUIQ7kNvwEwTW6T&_nc_oc=AdkLKCu3Q4_eNQC6OEZ_566NX5Aoy-mSevdswW6XoWKFMgljLr4YWd1Ftr1atWJuDBQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIeIn3hx3OEprX7H2xw7V3-Psw5cNfZ5IlHF5D4HSdlCw&oe=6845FF5E",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "spidergrills.com",
+      "cards": [
+        {
+          "body": "🕷️ Meet the King of Grills — The Huntsman by Spider Grill 👑🔥\n\nVoted Best Grill of 2025, the Huntsman isn't just a grill — it's a beast. With 5mm carbon steel walls, unmatched heat retention, and the power of the Venom™ Smart Fan, it sears, smokes, and slow-cooks like nothing else.\n\n💥 Pro-Grade. Charcoal-Fueled. Kamado-Reinvented.\n\n🎥 Watch this video and see why pitmasters are calling it the last grill you'll ever need.\n\nShop NOW at https://www.spidergrills.com/products/the-huntsman",
+          "caption": "",
+          "cta_text": "Shop Now",
+          "cta_type": "SHOP_NOW",
+          "image_crops": [],
+          "link_description": "FREE SHIPPING ON ORDERS OVER $275",
+          "link_url": "https://www.spidergrills.com/products/the-huntsman",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "The King of Grills!",
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494179616_1390322702210223_6778491778506349966_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uZlFh1WRooYQ7kNvwGoWcAP&_nc_oc=AdlRpD7YWNsk3KBWAUiVUnsVOUl5o2ZW-lA70CYod-U5406K0H3aHn5nFoVCnfLZGm8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKP77ejHerZAA8SwWEZw-Vk3oQSkAGwfybpBXaVKUFRow&oe=6845F673",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_4058127974463537_2957819077445183725_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EdUnXNVwS_MQ7kNvwFoqigr&_nc_oc=AdnjJ29VeAwY5_MMfHk_wwh3Jb0NIhQf_Se1QlHJ15cgD7M8aImM6jeefE9tvnVw89w&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMO5hjKMgzGNw8o9cg6Y9KOmzuLh2NRQSggjY0TJROig&oe=6845F8C9",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "🕷️ Meet the King of Grills — The Huntsman by Spider Grill 👑🔥\n\nVoted Best Grill of 2025, the Huntsman isn't just a grill — it's a beast. With 5mm carbon steel walls, unmatched heat retention, and the power of the Venom™ Smart Fan, it sears, smokes, and slow-cooks like nothing else.\n\n💥 Pro-Grade. Charcoal-Fueled. Kamado-Reinvented.\n\n🎥 Watch this video and see why pitmasters are calling it the last grill you'll ever need.\n\nShop NOW at https://www.spidergrills.com/products/the-huntsman",
+          "caption": "",
+          "cta_text": "Shop Now",
+          "cta_type": "SHOP_NOW",
+          "image_crops": [],
+          "link_description": "FREE SHIPPING ON ORDERS OVER $275",
+          "link_url": "https://www.spidergrills.com/products/the-huntsman",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "The King of Grills!",
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494061791_1400062987592971_1883343694067365532_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yHBuNXhI3hcQ7kNvwE1jGGP&_nc_oc=Adm9-R0ic8Qm_XoIQiZMgEzGxAw3S_bety1eRBzvaRNQDDy2CFbpDI71ehMDUZ1fyWk&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKR_ZnBbnl8BR1BLBhk7HpUFNO27ab3mtlBZAfKrm4ktg&oe=68460BE0",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_4058127974463537_2957819077445183725_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EdUnXNVwS_MQ7kNvwFoqigr&_nc_oc=AdnjJ29VeAwY5_MMfHk_wwh3Jb0NIhQf_Se1QlHJ15cgD7M8aImM6jeefE9tvnVw89w&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMO5hjKMgzGNw8o9cg6Y9KOmzuLh2NRQSggjY0TJROig&oe=6845F8C9",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Shop now",
+      "cta_type": "SHOP_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Spider Grills",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://www.spidergrills.com/products/the-huntsman",
+      "page_categories": [
+        "Product/service"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 4704,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Spider Grills",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 4,
+    "collation_id": "1185000940041264",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1745910000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "713871494407045",
+    "page_id": "810886569294789",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "810886569294789",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/spider.grills/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Spider Grills",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494199242_1862028297972963_5131368815162322757_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BzuiBBhZvUIQ7kNvwEwTW6T&_nc_oc=AdkLKCu3Q4_eNQC6OEZ_566NX5Aoy-mSevdswW6XoWKFMgljLr4YWd1Ftr1atWJuDBQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIeIn3hx3OEprX7H2xw7V3-Psw5cNfZ5IlHF5D4HSdlCw&oe=6845FF5E",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "spidergrills.com",
+      "cards": [
+        {
+          "body": "🕷️ Meet the King of Grills — The Huntsman by Spider Grill 👑🔥\n\nVoted Best Grill of 2025, the Huntsman isn't just a grill — it's a beast. With 5mm carbon steel walls, unmatched heat retention, and the power of the Venom™ Smart Fan, it sears, smokes, and slow-cooks like nothing else.\n\n💥 Pro-Grade. Charcoal-Fueled. Kamado-Reinvented.\n\n🎥 Watch this video and see why pitmasters are calling it the last grill you'll ever need.\n\nShop NOW at https://www.spidergrills.com/products/the-huntsman",
+          "caption": "",
+          "cta_text": "Shop Now",
+          "cta_type": "SHOP_NOW",
+          "image_crops": [],
+          "link_description": "FREE SHIPPING ON ORDERS OVER $275",
+          "link_url": "https://www.spidergrills.com/products/the-huntsman",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "The King of Grills!",
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494179616_1390322702210223_6778491778506349966_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uZlFh1WRooYQ7kNvwGoWcAP&_nc_oc=AdlRpD7YWNsk3KBWAUiVUnsVOUl5o2ZW-lA70CYod-U5406K0H3aHn5nFoVCnfLZGm8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKP77ejHerZAA8SwWEZw-Vk3oQSkAGwfybpBXaVKUFRow&oe=6845F673",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_4058127974463537_2957819077445183725_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EdUnXNVwS_MQ7kNvwFoqigr&_nc_oc=AdnjJ29VeAwY5_MMfHk_wwh3Jb0NIhQf_Se1QlHJ15cgD7M8aImM6jeefE9tvnVw89w&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMO5hjKMgzGNw8o9cg6Y9KOmzuLh2NRQSggjY0TJROig&oe=6845F8C9",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "🕷️ Meet the King of Grills — The Huntsman by Spider Grill 👑🔥\n\nVoted Best Grill of 2025, the Huntsman isn't just a grill — it's a beast. With 5mm carbon steel walls, unmatched heat retention, and the power of the Venom™ Smart Fan, it sears, smokes, and slow-cooks like nothing else.\n\n💥 Pro-Grade. Charcoal-Fueled. Kamado-Reinvented.\n\n🎥 Watch this video and see why pitmasters are calling it the last grill you'll ever need.\n\nShop NOW at https://www.spidergrills.com/products/the-huntsman",
+          "caption": "",
+          "cta_text": "Shop Now",
+          "cta_type": "SHOP_NOW",
+          "image_crops": [],
+          "link_description": "FREE SHIPPING ON ORDERS OVER $275",
+          "link_url": "https://www.spidergrills.com/products/the-huntsman",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "The King of Grills!",
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494061791_1400062987592971_1883343694067365532_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yHBuNXhI3hcQ7kNvwE1jGGP&_nc_oc=Adm9-R0ic8Qm_XoIQiZMgEzGxAw3S_bety1eRBzvaRNQDDy2CFbpDI71ehMDUZ1fyWk&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKR_ZnBbnl8BR1BLBhk7HpUFNO27ab3mtlBZAfKrm4ktg&oe=68460BE0",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_4058127974463537_2957819077445183725_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EdUnXNVwS_MQ7kNvwFoqigr&_nc_oc=AdnjJ29VeAwY5_MMfHk_wwh3Jb0NIhQf_Se1QlHJ15cgD7M8aImM6jeefE9tvnVw89w&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMO5hjKMgzGNw8o9cg6Y9KOmzuLh2NRQSggjY0TJROig&oe=6845F8C9",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Shop now",
+      "cta_type": "SHOP_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Spider Grills",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://www.spidergrills.com/products/the-huntsman",
+      "page_categories": [
+        "Product/service"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 4704,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Spider Grills",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1185000940041264",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1745910000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "516949348016475",
+    "page_id": "810886569294789",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "810886569294789",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/spider.grills/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Spider Grills",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494199242_1862028297972963_5131368815162322757_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BzuiBBhZvUIQ7kNvwEwTW6T&_nc_oc=AdkLKCu3Q4_eNQC6OEZ_566NX5Aoy-mSevdswW6XoWKFMgljLr4YWd1Ftr1atWJuDBQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIeIn3hx3OEprX7H2xw7V3-Psw5cNfZ5IlHF5D4HSdlCw&oe=6845FF5E",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "spidergrills.com",
+      "cards": [
+        {
+          "body": "🕷️ Meet the King of Grills — The Huntsman by Spider Grill 👑🔥\n\nVoted Best Grill of 2025, the Huntsman isn't just a grill — it's a beast. With 5mm carbon steel walls, unmatched heat retention, and the power of the Venom™ Smart Fan, it sears, smokes, and slow-cooks like nothing else.\n\n💥 Pro-Grade. Charcoal-Fueled. Kamado-Reinvented.\n\n🎥 Watch this video and see why pitmasters are calling it the last grill you'll ever need.\n\nShop NOW at https://www.spidergrills.com/products/the-huntsman",
+          "caption": "",
+          "cta_text": "Shop Now",
+          "cta_type": "SHOP_NOW",
+          "image_crops": [],
+          "link_description": "FREE SHIPPING ON ORDERS OVER $275",
+          "link_url": "https://www.spidergrills.com/products/the-huntsman",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "The King of Grills!",
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494179616_1390322702210223_6778491778506349966_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uZlFh1WRooYQ7kNvwGoWcAP&_nc_oc=AdlRpD7YWNsk3KBWAUiVUnsVOUl5o2ZW-lA70CYod-U5406K0H3aHn5nFoVCnfLZGm8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKP77ejHerZAA8SwWEZw-Vk3oQSkAGwfybpBXaVKUFRow&oe=6845F673",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_4058127974463537_2957819077445183725_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EdUnXNVwS_MQ7kNvwFoqigr&_nc_oc=AdnjJ29VeAwY5_MMfHk_wwh3Jb0NIhQf_Se1QlHJ15cgD7M8aImM6jeefE9tvnVw89w&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMO5hjKMgzGNw8o9cg6Y9KOmzuLh2NRQSggjY0TJROig&oe=6845F8C9",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "🕷️ Meet the King of Grills — The Huntsman by Spider Grill 👑🔥\n\nVoted Best Grill of 2025, the Huntsman isn't just a grill — it's a beast. With 5mm carbon steel walls, unmatched heat retention, and the power of the Venom™ Smart Fan, it sears, smokes, and slow-cooks like nothing else.\n\n💥 Pro-Grade. Charcoal-Fueled. Kamado-Reinvented.\n\n🎥 Watch this video and see why pitmasters are calling it the last grill you'll ever need.\n\nShop NOW at https://www.spidergrills.com/products/the-huntsman",
+          "caption": "",
+          "cta_text": "Shop Now",
+          "cta_type": "SHOP_NOW",
+          "image_crops": [],
+          "link_description": "FREE SHIPPING ON ORDERS OVER $275",
+          "link_url": "https://www.spidergrills.com/products/the-huntsman",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "The King of Grills!",
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494061791_1400062987592971_1883343694067365532_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yHBuNXhI3hcQ7kNvwE1jGGP&_nc_oc=Adm9-R0ic8Qm_XoIQiZMgEzGxAw3S_bety1eRBzvaRNQDDy2CFbpDI71ehMDUZ1fyWk&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKR_ZnBbnl8BR1BLBhk7HpUFNO27ab3mtlBZAfKrm4ktg&oe=68460BE0",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_4058127974463537_2957819077445183725_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EdUnXNVwS_MQ7kNvwFoqigr&_nc_oc=AdnjJ29VeAwY5_MMfHk_wwh3Jb0NIhQf_Se1QlHJ15cgD7M8aImM6jeefE9tvnVw89w&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMO5hjKMgzGNw8o9cg6Y9KOmzuLh2NRQSggjY0TJROig&oe=6845F8C9",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Shop now",
+      "cta_type": "SHOP_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Spider Grills",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://www.spidergrills.com/products/the-huntsman",
+      "page_categories": [
+        "Product/service"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 4704,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Spider Grills",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1185000940041264",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1745910000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1609537779763840",
+    "page_id": "810886569294789",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "810886569294789",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/spider.grills/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Spider Grills",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494199242_1862028297972963_5131368815162322757_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BzuiBBhZvUIQ7kNvwEwTW6T&_nc_oc=AdkLKCu3Q4_eNQC6OEZ_566NX5Aoy-mSevdswW6XoWKFMgljLr4YWd1Ftr1atWJuDBQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIeIn3hx3OEprX7H2xw7V3-Psw5cNfZ5IlHF5D4HSdlCw&oe=6845FF5E",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "spidergrills.com",
+      "cards": [
+        {
+          "body": "🕷️ Meet the King of Grills — The Huntsman by Spider Grill 👑🔥\n\nVoted Best Grill of 2025, the Huntsman isn't just a grill — it's a beast. With 5mm carbon steel walls, unmatched heat retention, and the power of the Venom™ Smart Fan, it sears, smokes, and slow-cooks like nothing else.\n\n💥 Pro-Grade. Charcoal-Fueled. Kamado-Reinvented.\n\n🎥 Watch this video and see why pitmasters are calling it the last grill you'll ever need.\n\nShop NOW at https://www.spidergrills.com/products/the-huntsman",
+          "caption": "",
+          "cta_text": "Shop Now",
+          "cta_type": "SHOP_NOW",
+          "image_crops": [],
+          "link_description": "FREE SHIPPING ON ORDERS OVER $275",
+          "link_url": "https://www.spidergrills.com/products/the-huntsman",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "The King of Grills!",
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494179616_1390322702210223_6778491778506349966_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uZlFh1WRooYQ7kNvwGoWcAP&_nc_oc=AdlRpD7YWNsk3KBWAUiVUnsVOUl5o2ZW-lA70CYod-U5406K0H3aHn5nFoVCnfLZGm8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKP77ejHerZAA8SwWEZw-Vk3oQSkAGwfybpBXaVKUFRow&oe=6845F673",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_4058127974463537_2957819077445183725_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EdUnXNVwS_MQ7kNvwFoqigr&_nc_oc=AdnjJ29VeAwY5_MMfHk_wwh3Jb0NIhQf_Se1QlHJ15cgD7M8aImM6jeefE9tvnVw89w&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMO5hjKMgzGNw8o9cg6Y9KOmzuLh2NRQSggjY0TJROig&oe=6845F8C9",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "🕷️ Meet the King of Grills — The Huntsman by Spider Grill 👑🔥\n\nVoted Best Grill of 2025, the Huntsman isn't just a grill — it's a beast. With 5mm carbon steel walls, unmatched heat retention, and the power of the Venom™ Smart Fan, it sears, smokes, and slow-cooks like nothing else.\n\n💥 Pro-Grade. Charcoal-Fueled. Kamado-Reinvented.\n\n🎥 Watch this video and see why pitmasters are calling it the last grill you'll ever need.\n\nShop NOW at https://www.spidergrills.com/products/the-huntsman",
+          "caption": "",
+          "cta_text": "Shop Now",
+          "cta_type": "SHOP_NOW",
+          "image_crops": [],
+          "link_description": "FREE SHIPPING ON ORDERS OVER $275",
+          "link_url": "https://www.spidergrills.com/products/the-huntsman",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "The King of Grills!",
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/494061791_1400062987592971_1883343694067365532_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yHBuNXhI3hcQ7kNvwE1jGGP&_nc_oc=Adm9-R0ic8Qm_XoIQiZMgEzGxAw3S_bety1eRBzvaRNQDDy2CFbpDI71ehMDUZ1fyWk&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKR_ZnBbnl8BR1BLBhk7HpUFNO27ab3mtlBZAfKrm4ktg&oe=68460BE0",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/10000000_4058127974463537_2957819077445183725_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EdUnXNVwS_MQ7kNvwFoqigr&_nc_oc=AdnjJ29VeAwY5_MMfHk_wwh3Jb0NIhQf_Se1QlHJ15cgD7M8aImM6jeefE9tvnVw89w&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMO5hjKMgzGNw8o9cg6Y9KOmzuLh2NRQSggjY0TJROig&oe=6845F8C9",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Shop now",
+      "cta_type": "SHOP_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Spider Grills",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://www.spidergrills.com/products/the-huntsman",
+      "page_categories": [
+        "Product/service"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 4704,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Spider Grills",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1185000940041264",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1745910000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1196317902152660",
+    "page_id": "354049214968606",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "354049214968606",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/netappbluexp/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "NetApp BlueXP",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/490822846_1329689571437413_7363515288198258636_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yIrG8OqwqhcQ7kNvwEF16sC&_nc_oc=AdlQ2p_cY9eR0FUri02EkHiXAwQCDdslVul9NF0I-lI_iZKS40xLCOY9OgQ5LGiw2Ew&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJHadW3fHEbcuT4BFzqzPRBjchz1pml_imO2OROcYbHcw&oe=6845FC22",
+      "body": {
+        "text": "With BluXP workload factory, you can create instant, lightweight clones for your dev/test environments in just a few clicks! 🚀\n\n💾 Efficient Storage: Clones don't consume space until modified.\n🔒 Isolated Changes: Modifications don't affect clones.\n🌐 Easy Setup: Create fully functional data copies effortlessly.\nWatch our latest tutorial to see how easy it is to manage your environments with minimal overhead. 🎥"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "netapp.com",
+      "cards": [],
+      "cta_text": "Learn more",
+      "cta_type": "LEARN_MORE",
+      "country_iso_code": null,
+      "current_page_name": "NetApp BlueXP",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "https://console.workloads.netapp.com/",
+      "page_categories": [
+        "Business"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 10266,
+      "title": "👉 Get started",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/491552483_1040401607951653_6982603446128511718_n.?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0JXJCIso4uEQ7kNvwFvJfDg&_nc_oc=AdkmGJc5GyYCrp41fYni7JDwPeToRgAFxLnwVEjoGprEVKLH89vruxBLDs8m-FdOsDs&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLEIgYapSqrQ3G2k7VyuV4AgM7aplW-pQ8wYdm7emCP0Q&oe=6845E6F5",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/491424121_984980100048905_6656443122001114301_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=thPe5qLUhecQ7kNvwEkFm1u&_nc_oc=AdnlQ-9QdJ3z7-E45qP68nXfWLDCSUZfkKxUeb2cLGGw33gGMfHAeopC35akhdT2n6U&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfK1g0OnipSf2yTMwsUMZA2_UH2OD90Y27cxvcTDOqmrgg&oe=6845E924",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/491481663_1784058982150562_1592412212526298109_n.mp4?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GIDRT8paOIAQ7kNvwG2CIuG&_nc_oc=Adm9UBG-ZzjYqmX6dWHO41RjfSttN3icnF2HtqTJpf8vnr3o4moE5zZsOnuGaxoKzbk&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKMaq1FInB4Fxcwuh06wPvMll2ok52Mcd-sbs3Vb1hf1A&oe=6845F38C",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "NetApp BlueXP",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "2230178870752182",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": true,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1744614000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "584612023901466",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/474838136_997385202250910_1875657475766082680_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UBVlRWRi5ooQ7kNvwFLNPc-&_nc_oc=AdlQzmGgZ6x4X-k1b1sq77hjdpmmkDYYk2EnHC2bBdXctjkF1yODFXttkorzdZDN0tQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKOxA-fgftajMhaVvpDyR0IPdV8dMaEGxTkU6QHB9Pcgw&oe=6845DF06",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoblu",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/474680069_582968751215578_1097163721986819764_n.?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NZy1my9qWswQ7kNvwH5H1Te&_nc_oc=AdkgS_VP4SIXZHLBODgBS-SW_X59mGZuBFi8rO7KROJcURqG0917buSJkH_M_9o0rbs&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIw95Fd3WKVLoFNtb0GBmM3m6eHLAtZ6wqjin0hLJUOSA&oe=6845E018",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/474742618_1129432981599088_7458117410684688175_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YXHPiaAXtSAQ7kNvwFdLcs0&_nc_oc=AdmTJLRfq7W3om5ciCvXQA5LnTt4zoBdkfVawC1bvIM4LCVP-Vy19pqP3dHTU_x2lro&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIZAoCXGW6jGf6VWZoSCHoaQTCGUEci07lHhKszRM8H3A&oe=6845EEBB",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoblu",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/474544384_582968754548911_1082615111105600273_n.?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_uUtMcJNemUQ7kNvwFnHGIW&_nc_oc=AdksldKO7bDFPs4ON8i1C6EIlo4z1lz0ImZL8CpLKLeUW5c2M0NxYZJ6Yb1xvj_7gis&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJCgpkTL7-kQVTFVT33UhtsKsBJ8e3S1sv8tupcq-dnHw&oe=6845E9C8",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/474825428_633313335842299_4512399884465703316_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=avSy5q8kgQoQ7kNvwGp4rIQ&_nc_oc=AdlRFNzNpsXozrw3TvH6zWrjSEj7eLKnZy26USPj91l99oDLeK2SaxiY_pp5Y1O6KHk&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIsx33EtxLDyLS441qGBPI0DiRmkK5EI-XQGUIrvDEmRQ&oe=6845E5BE",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/products/ecoblu",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 11,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1744527600,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "568173129051217",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/481276928_545312638569943_5607900523797606932_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=knVwmOEFrc0Q7kNvwH759a6&_nc_oc=AdnQvvzaFt6EAASA4FhRsqlY-qto9ooKZwWW9MDFSCo8cPePAFjssUMjzQ_y9LDLCWA&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIWcc3nQXx--8ZVFJ-XEXcuix9so4oXEbk4vy4ABJu_qw&oe=684601C6",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/481392949_640270265049994_7682365392116767969_n.?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pDvMvSG8SjgQ7kNvwFCYAXM&_nc_oc=AdmfDXDGWR58npR6roXKhVyWWENxFKg6OeFz3qa04ePIV7fEJwoXlO_rgLMoZZNMYzY&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIl6c-VQBzyuaVC8ZC0cERfji8wgfXq6AWaF5ndSz3tSQ&oe=6845F628",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/480861376_1808241763054698_2762965620723868469_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=--lnErN917YQ7kNvwHdDrhI&_nc_oc=AdmEhlIhq8ZaMiy_D-dRYiep-a5JxM7RJBwmcP3HlcJbb17GaXZqtDmFAK91ldCs4EI&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLh5eBBUbODAah4gTSE0bVy3DE8T-zI9uqLJpIGXQN80A&oe=6845E0F5",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/480991408_640270268383327_4570808787850931761_n.?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=t1jk-zSaeZYQ7kNvwFsEOfZ&_nc_oc=AdmOQOl5fqy8Zm00MUaq2d83OHb6NRF-E92pzSIvDWhoI-Nd23ffKiVT5cPLR663fzM&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJePP_WOSUs7-jx2pyNhIHaLsv6MckeERyN4t3Vdtjzcg&oe=6845DF28",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/481144768_914358047282403_3367809974324571559_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wjK4qVWxDoUQ7kNvwFuf98t&_nc_oc=Adl_Z3RBZg04AHtgyElPkAipHN3eeQ2mO1POaYEwjSsi5xaupgGC02SqFd_nBz2TSB8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfL6Js4oPcwYduAb_vQPfOSLYYECAQTetsveigJSYeaKVw&oe=6846106C",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748847600,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1744527600,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1362043378175976",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/480871979_1154748975998571_4954599549355975656_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RyFQdXSKMG4Q7kNvwEknF5v&_nc_oc=AdlthmKtD2d1WNN48qDmJPLYkJ-9FT-c8oJYHZdktdYjcG4QMjD4EczhmPoAjx9Mkac&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIM7VYU3ryNdkceB8P8ppHnv2w1bIvBxkQ8JfnjmRSAlQ&oe=6846133E",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/482148527_1109876954223488_8030373315405426974_n.?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vQlnsXAn-7oQ7kNvwG-sble&_nc_oc=Adlx7Gg8komyVqtBIBVq9_ShpkkGqDerZIZb-g2iVsdXOdKro_PKQ1FsqePKFUigBcQ&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLNW66-lrriDD7X4U4avbjVieYDDiUj2ti6zWhoUoKD7w&oe=68460166",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/480727412_2618833988307317_1944829713737591505_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8kvI9DQFfjYQ7kNvwHasvvF&_nc_oc=AdmmR6ol72_uATzsWPB-TDJ1miLOLsYKskhu_92Ni2Ympw2QN2wPjIiBTcmd0MHKVbM&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIQ7WM2DvMJeasv7-fMBLKWqkXocsjfzSxcDefzJJkdhg&oe=6845E4F4",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/481147783_1109876957556821_3179633640332072454_n.?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Pl_IW6lwBdkQ7kNvwEFFPi_&_nc_oc=Adl3HD7dhW6U2XlGSBptn6McG8Y7grwwWmTZiuJXd8KJDOBKakQIfVmvI-HNiw381Dk&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLBIL61ia2kcv3pVZYta2N291xNjBVIHUX1cDyHu-XZFA&oe=68460D3A",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/481779920_1751810708726680_5413048629883020059_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bVB_sjUxMlAQ7kNvwGu5Ntd&_nc_oc=Adk4SnaG3Tkq4YNfK1dn48chVkORnAmDemw0La4_6lkD_bSsOoZ47qZCh4Rl3QUdCCA&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfItuj0H2Uzqda6UF620u7_Bi3vZ4YPQ07tmp5Zy6zdJmw&oe=6845E63B",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/products/ecoqube",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748847600,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1744614000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "581238708322515",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/480877406_1263648402050611_1194481931150189415_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IZOcbiiP4pAQ7kNvwHUF3uX&_nc_oc=AdlZML3owUF7EFYZLW3M-wIDwecYs5hdnbVpnTGEcA1muPXVd32IM9k8RiH6X1FB7DI&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJuUR7W8CyupNu7HBdAzaqbAAU0EB9Hu-A4Mlyk9Ya2cw&oe=68460175",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/pages/home-solution",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/481145298_1147761963193885_7295556224672303462_n.?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bolRjn0CmV4Q7kNvwEpnSUF&_nc_oc=AdnjjMF9l4CCETgSGK6f56sOKfR0HVVJr_VnAI3LvlzPwSRXQHZJqrM9ilmXdPeewhA&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJ3JgQqBh2UF6GLl5tPiDLC6GhVeazipFWvhBksYpPfAQ&oe=68460653",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/480792810_659692876587606_6513778487590930602_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UV56oOjcCcoQ7kNvwFgODVG&_nc_oc=AdlSeaZuS4pXEPkOLLsWtanzXT9_3GmRvUYqMfk33eOCWij2X72WVXkYOhcUWvXuKV8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJy1yy0Dh-AiE4ur2SWz0Tj9Hbay9rOj-4R4n6rYx5BNg&oe=68460279",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/pages/home-solution",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/481928854_1147761959860552_3860448147062030906_n.?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SlIDQXo13e8Q7kNvwGde3M1&_nc_oc=AdlxhJo9N-noPn4yMUWoqnY5b1matVP8i1z2VY0PK2TxBxFrv4_xXJLrC8EbKXkxRIc&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJGvdUnexrTLZo1ouWb2rRLANiHtEn6C_1yJzlDSGxc_g&oe=6845EF05",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/480986248_1452619126112351_5334560971667559626_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-7VzzRsNw4sQ7kNvwG2U1hq&_nc_oc=AdnD6-bDpFDtamFPfl7EWvgY02TyOyH_N_Lge_5PwV6IXK3rTxqp4wzOwGhmNFNUUGg&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKzWarWdA8sXHQ1eJfULLSCqdqIQNBJrIVI1umS-x1YoA&oe=684604DB",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/pages/home-solution",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748847600,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1744527600,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1035080021855234",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485726358_9824622100894685_7566335853690591508_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fH346UhzFx4Q7kNvwF4yPpM&_nc_oc=AdnPMc_6ivAD9impILoDfaDi5YE7_trNdkI-RUIUpDt6QY5Z1Km6MT9N_7yAUFEEirE&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKvRl4hxpO9q2BT8FS7-qfKA8lWRHhRHmDBw_4x3-juzw&oe=6845EB55",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/485442833_1049599833868267_976962630440532847_n.?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QaRfYoXIqS0Q7kNvwFX-RMx&_nc_oc=Adl3V0ZnWIv3muD6r0h2LtE7VO040yI_H1WS6ReUySwyTcfSZGCR2uOC-DdAK-_gq3Q&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJ1X9X1HD1RcF0DONfhFJ2k7wcbtNrEGV362v7WMrqjmg&oe=68460AC7",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485945277_585578851171360_2550470898198297474_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7w9FWuW3jk4Q7kNvwEd8e_L&_nc_oc=AdkgqESo2PUEaire38EV1EX6tol7dNNsQHXhcRUlFBfpHVLHW9mQO5kJ7bx-0Y3fgwc&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKsFzo6Tyw_CBjSQEivRBE7cs4Jrq6i9wV5IYMO8MkKuw&oe=6845FD84",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/486309051_1049599830534934_1448451840545155570_n.?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eYseZTdK5VwQ7kNvwEjLoh8&_nc_oc=AdmaV0Ror1XIRsKm-oSzJ3Onjz4_tOaixTy5yfpas3n86U5nXyCbcYOrDjHBE1Pe5GA&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIQ_WxXbVKvsQ324wyBDD_nelmDrkJW2l3--bG7RWUg5w&oe=6845F7F7",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485672663_1370117103875808_1407470816115376722_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3sBrGGiNt68Q7kNvwE2zMod&_nc_oc=AdmaZEg86nOiqSj9ZmZrmkL_OwRYVRIve2yOM8jCYC7h5Mq9DjFSiXhGLiTEaz6pSfw&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfK2SvEltXd9eMgZfcDmxCjvXpbPET76srpDA50agnFLVA&oe=6845EBCB",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1744700400,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "576044511510455",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/486187665_508299502133793_4685470899374907431_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vI3HDrcWRNoQ7kNvwEoE8gz&_nc_oc=Adnaq-M7zXbapUqKPa9ELUwCp2DE-Ey7z6nL1IMhOk_yBvgXHzicLlL5UdQwQRUNwDo&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIq-_ophxqNes78k8xUAJbUUbLcokL0qLH6QQ-jgfyhsw&oe=6846023D",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/485168726_576044541510452_8056830055841650305_n.?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xmpXJEkwnqYQ7kNvwFbUs_Q&_nc_oc=Adk8UrKKoOt0L7jsl02fsaB-Bd_jkJ3IoC-4Lu1FQPhkRW5EskIike8vjlfulwKrAnE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKOz4-x4xg5KE0qrSDBlYLO7nAlZgYshCixRQqznbiO2A&oe=6845E244",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485796638_1174376403838313_2190321076569121046_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Qt7ilFhI2wkQ7kNvwHFzlZA&_nc_oc=AdldTxFpWelcVeb8nMwOiMcxGa4oMuepuSdnjkRLBmINm4utbyOgDADYOSlNqXHnsgw&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIHfOtdZMujMyFZl01hLT1QmLKc16ev3oE0jY6OjV3bog&oe=684610E6",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/485441898_576044538177119_1635461267587942961_n.?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=u9eU21o3vAQQ7kNvwF35E34&_nc_oc=AdlYJgyJZxyccnvetORWUiu0mSRq_PJG7o47lLMcSBFwg0MYsE0uVlXAogXw6m7WwF0&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKc3kBkEaGdj5YcIpohxWRRjwAbQkdlxeg3cfuaHaZk0Q&oe=68461411",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485708576_1568524783860581_2717629986631820364_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=cIYw-d9c68YQ7kNvwFaEfDF&_nc_oc=Adl_yb17QqyLYow0cwjSDvrogdxw2EmqYAS47hmCdDxR0nyW3374WV03RBidkDu2Fjk&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIWYcA7osvvQbq7w0USNkKPWAE7QQTs65qNr84JC13E4g&oe=6845DCE8",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748674800,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1742540400,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1203333921421651",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/486172461_1193441095544243_4119562339391550305_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1aKgyr5C1hIQ7kNvwFApJrT&_nc_oc=Adm22wNSziZdIpp12IS7vLFwFp_Ct4b9kUWqNXLfXONq6qy18oS87WJXnNHlszDCWvs&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKOGTD8p5ECZDr6ymlkOLGkjnIKUyBr0xnQ8Ik53FE_Iw&oe=6845FE76",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/485302145_1203333974754979_4152952355603900418_n.?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QrYhq-Q0RAkQ7kNvwFnFcuY&_nc_oc=AdlrM8_Wt0_t8P4lbFm_rC0iNtZPDrluw6GJxN_SyFyqALxGUwl-v7YKbGU4Wif40_Q&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJeUBuvN0s5skJN9ikgdS0OD3IESRypj9aN-66yvQYIxw&oe=684612F8",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485975802_647113748186398_6896672156470402656_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KDAuyB3NDV8Q7kNvwEB_wpo&_nc_oc=Adlw5j8PetU0IhcJuUljebmXWlNSWJGLs6IC-RIuV2MdrFG3IUeC4e2Eg8nn7K0vb3o&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIh9NXFkdDY-dEWbAzhgW-hdjnghAcvtGRb59YSYDsEVQ&oe=68461074",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/484884013_1203333971421646_6256608692360642196_n.?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=s2MX41gCb8YQ7kNvwHBCe24&_nc_oc=Adlpoeeu5t6K3FureAisg-CdTjHMqm0hMwQo_5rEIpb47o14x0nwIHnZta69WXwW6RY&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKw0hQQ3xLa3BS-Mn8YiV-tn7IH9pR6EnTfZCNM_YUOgg&oe=6846138B",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/486114062_976298371348060_6935554595926897766_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=FK1FRSg7JiwQ7kNvwFd8i7Y&_nc_oc=Adn6X2uJVh5dvcR58pz8PZT5fXX-5ouANW7bAPZfSmZksfEucv8QkvX1ILvol5U6tYI&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIQVWl7ZNwA3EVBudXgPO5A4icw0-KzHgAcdB7rgqY8jw&oe=6845EB8C",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748761200,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1742540400,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1036856288255624",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485146138_1168833165031737_2583065065349255571_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WiNJGQVaJ7kQ7kNvwEL8Ggi&_nc_oc=Adn0eGpAtDeBlg6S7YBTYmsyhAoaF7Tqh5NZEJqIfGW096y38KsbukHZVbU_RN-W_WQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLVNRgCSC5d7hOLtCuINvXwvW_oXqOsS8FN4UiGE28low&oe=68460D4D",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/485194017_1036856308255622_7080729848546295099_n.?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oXRDmtZcjywQ7kNvwHXFr18&_nc_oc=AdmuOsyN_oPy7RGu6lJaz20cP-k8Pab_OQBFzPeqepvo_8YFDG6Hhljp7rDwLQYVpKE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJXj7Iz__PRJg_9NGQ623JqYlDp7o5yhOrU1Jdc0Lgabw&oe=68460AF0",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485339284_1204645984379733_2987639054448374291_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yZA2HvwSGjQQ7kNvwH9JiPs&_nc_oc=Adld-DKLNuI4SXsp_Y6qaREcIHzQdlDntviU6yrPk7yIdd5LL-_AJUBBFaidmWAPbyU&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJEAxLZgOIX_n3W18EQ7ANTgrNuI-5umq7peSrwYyHamA&oe=68460265",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/485498435_1036856311588955_8319570586500278792_n.?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=quSFKfyTJuAQ7kNvwF5Piy7&_nc_oc=AdngkkCf5sqKwDU89auyvql-rKjNu1dWLhf7-BgiTUxqCgOTntxCU1KFgB0yqNDYpH4&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfK5wkG-FVPOaG3XmV2dBOwQEBovwOcctyE1ZfAtTatCuw&oe=68461031",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485346647_578408081912990_1072091994663446489_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kuyYDXU7TmsQ7kNvwFUodTu&_nc_oc=Adn8BKwoWwjU1rRJ3ib8kRho1Fyf1-5XJEwzVJIwf2P95X7eC72bWvY9jMu62-Fj3Mo&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJ35L7-9C2gXjjzHbzhrhqHfEX0tWzOMlDlpwTtrDeMXQ&oe=684609DD",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1742540400,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "930160402635964",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/473676795_408041302334627_3948785623021180487_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EK5M7bm4UtoQ7kNvwHgF4q0&_nc_oc=AdkvYLfIaSEDgoK6Q1QMoPnWdMhAbq1Isz3QzTjaz0KhfEHGiBmajJIIWb6_3pazAdA&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIUTRCruiSfAG8kxuZVSR15ymlU0S-TZw_5eTP_5VniZQ&oe=6845E7C2",
+      "body": {
+        "text": "{{product.brand}}"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoblu",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473224907_930160442635960_2192423762259592224_n.?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pigO46G27W4Q7kNvwHjpZZH&_nc_oc=Adk1_fGjsb383lt33954ZZNkrknSWmrlE5Duo7Tlj1LbDUTHl1J5_OOFp3Xcd62R-jI&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKU8FTYhx-c46VLwYU7au7r-rWMqAT_rTprRtuPF2zp7g&oe=6846029B",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/473978567_741946245169917_7102728529054066413_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TArrVXCZWBgQ7kNvwG6FYYy&_nc_oc=AdmjW1EA-4V-18LbGGzc99SjOIHgdMpCFsRgEYiR_QASHZjp0Lq2GIbGTrkPwy6-VjE&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKztEcZ0cD7ljmjMe5gvDL4Q8nvQ4P3n8GBiVvnOt1_tw&oe=6845E8D4",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        },
+        {
+          "body": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!",
+          "caption": "",
+          "cta_text": "Order Now",
+          "cta_type": "ORDER_NOW",
+          "image_crops": [],
+          "link_description": null,
+          "link_url": "https://ecosense.io/products/ecoblu",
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "House Radon Levels Need To Be Monitored!",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/472164830_930160445969293_4353426679806480879_n.?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yUoYHe57ia0Q7kNvwGieSSo&_nc_oc=AdkObeXapejdjaQGoUdBJ2BMJIRFMZxDF3wKy_TpxV6W004QHuzvUACe2_DEMeWEbO0&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJGNJOCLgI_GCoUHXe22J_jNkFsk4rOSMMhnuDJ0XBH5w&oe=6845F5CA",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/474008224_1143831716596405_2603553234021300285_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=b1G1SYdKKTQQ7kNvwFPSmZg&_nc_oc=AdkaGV-DJ0th9jXG-gafwDcg4mx-oWWAkK_ID2TwDpW3zjz7sYYZtBpOBcxPxEUCzcY&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJKg0xr36kKOp4uGtAo4zBSITeUjQEKjJOKVMdAswfjWQ&oe=68460C17",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "DCO",
+      "event": null,
+      "images": [],
+      "link_description": "{{product.description}}",
+      "link_url": "https://ecosense.io/products/ecoblu",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "{{product.name}}",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": null,
+    "collation_id": "1316873012685583",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1737100800,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1187649356292308",
+    "page_id": "878817642156859",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "878817642156859",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ipitaka/",
+      "root_reshared_post": null,
+      "byline": "",
+      "disclaimer_label": null,
+      "page_name": "PITAKA",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/489420796_1213341713506933_558953218416699679_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UIuSR98AYkgQ7kNvwG7zZQT&_nc_oc=AdlkRA-_YkuhdsIwiu-DPbjHV2JTnZHEiyJcULOhvcphCmGcez2_Rgf1q6CrTstvsEU&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfL6WvX-Bghi_aTAGlucK1xKHJ96urg25sV5F5mvqFXvyw&oe=6845E679",
+      "body": {
+        "text": "How well does the PinButton Case fit the Galaxy S25 Ultra?\n\nCan the three innovative PinButtons really make your life or work easier? What about protection? MagSafe compatibility? And does it interfere with the S Pen?\n\nEverything you want to know about the PinButton Case is right here! \n\nHuge thanks to @Michael's Tech Talk for the honest and heartfelt review. The PinButton Case isn’t perfect—but we’re listening, and we’re committed to making it better.  #PITAKA #pinbuttoncase #galaxys25ultra"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "www.ipitaka.com",
+      "cards": [],
+      "cta_text": "Learn more",
+      "cta_type": "LEARN_MORE",
+      "country_iso_code": null,
+      "current_page_name": "PITAKA",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "https://www.ipitaka.com/products/pinbutton-phone-cases?utm_source=facebook&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_content=video&variant=42500326031430",
+      "page_categories": [
+        "Product/service"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 60919,
+      "title": "About PinButton Case for Galaxy S25 Ultra",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/488599287_1187649422958968_1097525434088403404_n.?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iVWK_JoFgDMQ7kNvwFcDuGz&_nc_oc=AdkqTo-I58gwnAYlm_drdtJF3JQywpIvHHRS9hihkh2wVMCu8fTPWsCvLbQ5Sca7qE4&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJ1b_nVwkGFGWKRJKjNPLvhVOTem_VZZ3WDMj_PbRVZUw&oe=6845F870",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/489439094_1011963007531302_1711203904851732133_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eAcb0LqOeaAQ7kNvwF_o6fF&_nc_oc=Adm4Ug1KhQi-joV0MIF83NHLqbvhC7iBkS8nOJkeM503bfDj3nR_2fI9y5z9kBhs29s&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKVLwxCEnsvjSbMV0PEQMMcax2Ts9tlWTfCAbLSCWHJSQ&oe=684601A7",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/486754161_1445944256783567_7322692468934135142_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BuVRaretc1gQ7kNvwERjrn2&_nc_oc=AdkGQWLv7VFBKcwCJNh_gw1MinmFLei0pylh-ppQgoGPGPyj5_hjRXF6HBDII95D-C8&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKRBytecbGnlQ_JSNDrWejteaeCo78BLRorQ3O1P7Y9WQ&oe=6846016E",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "PITAKA",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "1180670296741064",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": true,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1744095600,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "620131124232676",
+    "page_id": "459191611559877",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "459191611559877",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/ecosense.io/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Ecosense,Inc.",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485367629_536140905746712_6117066840885151064_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2MuPPJFHYY8Q7kNvwEwo7YT&_nc_oc=AdlS1tw2i3iTEk5JajlxaxEz_d9IUe-yPc8FnTNO4q8GEI14iVfe-NlOI-XozSiXiKg&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJ8sBZfMEU6ykojPRG6SkIA-2LDSGjChuBN6d3a6ciAEg&oe=6845F1FA",
+      "body": {
+        "text": "“I tested my house for radon 14 years ago when we moved in and never thought of it again. Then in June of 2023, I was diagnosed with nonsmoking lung cancer. If I had an Ecosense radon detection device when I moved in, I could’ve avoided this tragedy.” Bill Johnson, a 44 year old father of 2 in Utah. \n\nWatch his story to learn more and then get one of our radon detection devices to protect your entire family from lung cancer caused by radon now. \n\nBill never smoked a day in his life, yet he ended up with nonsmoking lung cancer. Don't end up like Bill and keep your family safe from radon today.\n\nOur Radon detection devices are 9-15X more sensitive than other devices on the market.\n\nRadon data levels can be viewed on your phone via our app in minutes, and on the go!\n\nMake sure your radon levels are “safe” year-round.\n\nGet yours today!"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "ecosense.io",
+      "cards": [],
+      "cta_text": "Order now",
+      "cta_type": "ORDER_NOW",
+      "country_iso_code": null,
+      "current_page_name": "Ecosense,Inc.",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "https://ecosense.io/products/ecoqube-and-ecoblu-complete-home-radon-monitoring-bundle",
+      "page_categories": [
+        "Product/service",
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 226,
+      "title": "House Radon Levels Need To Be Monitored!",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/484971151_620131280899327_6721976895283600183_n.?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UXmofaqG8QMQ7kNvwFp1AHo&_nc_oc=AdlmxYhk5eO9UQvvvXUzcSgxIF94JPv4jjr1YOOzjxEhLePvVoqfDEvqeS9LAByPHhg&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJUSZ0lWGPH3_Xj_2FvteBtBBUIAAKY0ffEFZZFyV-uTg&oe=6845FC75",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485160446_1030367668908376_564465308984381694_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eS93ybpasFEQ7kNvwG22C3f&_nc_oc=AdlmFSFPg9HiHtxrd-JynDDWJLSM72HFbC3y7vlb2WJA9aSmg90IFBUBVnFrGo91-o0&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLEaHsoMfJpiMrV99_fWIlfJ2t9yx0nmSwRLNWXo_N4rA&oe=6845FE36",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/473753657_925804879658482_730341998220745423_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MYcXuPiM2TYQ7kNvwEpFcIS&_nc_oc=AdlcLEWvM1k5tkoV8mlMulWilknI76HBvYd-TGiUWZlyDC1BP2CyvV9B7XcfHuv9SFE&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKLh5w9HnliCz9fyIuzTcaahr2Ac_hy1rJ1GsIIoAPUPQ&oe=6845F81B",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Ecosense,Inc.",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "635779162224041",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748847600,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1742540400,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "669884895600081",
+    "page_id": "401983146324585",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "401983146324585",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/61562249200638/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Lakewood Ranch Holiday Lighting",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485016659_1179339450533883_71392730740750715_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GFb51SkSKWgQ7kNvwGgsat0&_nc_oc=AdmKIiUAC-O8PIa_mr4nZuB4V8voay-hX_yPQbJgYxM82bYVD_cdG_O4EgMdhmwWs7g&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIK9U2TGKntdr6pa_PNsHcsrNShCJWTgOU9Y1ElboEKFQ&oe=684603B7",
+      "body": {
+        "text": "Year-Round Brilliance, Not Just for Christmas!\n\nElevate your home’s nighttime curb appeal with cutting-edge smart lighting solutions from top-tier outdoor light manufacturer Govee. Perfect for holidays or everyday elegance, these lights redefine versatility. \n\nWhy Choose Us?  \n\nOne and Done! Year-round installations are no longer a novelty—discreetly designed to blend seamlessly, even your HOA won’t bat an eye.  \n\nFully invisible cable management optional\n\nCustom-made, color-matching mounting brackets  \n\nCommercial-grade track systems available for business properties\n\nEntrust your installation to experts—our work is as enduring as our craftsmanship. Amateur or DIY installations may seem tempting, but they rarely stand the test of time.\n\nPayment Options: Credit cards accepted, with seamless invoicing via Square.  \n\nOne-time setup with minimal visibility when off  \n\nThousands of customizable colors, patterns, and brightness levels via an intuitive app  \n\nPre-programmed displays for Christmas, Halloween, Easter, Independence Day, Memorial Day, and more  \n\nGovee Warranties Apply\n\nCreate your own unique designs tailored to any occasion\n\nSmart Home Integration: Compatible with Alexa, Google, Apple, Matter, and more for effortless voice control—or opt for a classic remote. \n\nTechnical specs and additional details available upon request; just send us a message!  \n\nTurnaround Time: 2-10 days, depending on project scope.  \n\nLet us transform your exterior into a stunning, functional masterpiece for every season. \n\nContact me today to bring your vision to life!"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": null,
+      "cards": [
+        {
+          "body": " ",
+          "caption": "facebook.com",
+          "cta_text": "Send Message",
+          "cta_type": "MESSAGE_PAGE",
+          "image_crops": [],
+          "link_description": " ",
+          "link_url": null,
+          "original_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/484912864_504807962684670_8037892608655589150_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GZ5ctoem3Q8Q7kNvwEu4JuI&_nc_oc=AdmuXND5fwhl5VeTrMH3MJrzRmIZZAagbtvHIlXK_B-m9l0yKocHwp4msRys4JQ-SI8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKTBncyhpsH13Xq80YcTL2CGFni2XNoyFOPXTpCzF7WzQ&oe=6845DF67",
+          "resized_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485072312_1164052778541281_1457936939313069308_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PC7OWxDtLJgQ7kNvwHH95zc&_nc_oc=AdlARI93Oy3wi0BSMX9Xye2EN8ZpXox5YUhEn8Ubg7Hc4UuhvyTwpXKGOcXsYnv3WwQ&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJFzMwhiwm9bcRvKM--fMNoj2XWeVs4rRvs8VxGCLTOmg&oe=6845FE3A",
+          "watermarked_resized_image_url": "",
+          "title": "Tunable White Lights",
+          "video_hd_url": null,
+          "video_preview_image_url": null,
+          "video_sd_url": null,
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": null
+        },
+        {
+          "body": " ",
+          "caption": "facebook.com",
+          "cta_text": "Send Message",
+          "cta_type": "MESSAGE_PAGE",
+          "image_crops": [],
+          "link_description": " ",
+          "link_url": null,
+          "original_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/484998164_555608350266776_3546899079288606716_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=clUoUW7DK2IQ7kNvwFvQvZK&_nc_oc=AdnfIEts5v_4tfurJpr5aq4vYdGxFw_KzKjKg6dK-bERPSota4GgI3dAadYjU4FvB70&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIetdKBURTBSgk3l7xyov5OI1lInZRDx2ujACDia-OkXQ&oe=6845DDE0",
+          "resized_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485062303_955141936607375_2529711216866169710_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4ck57Uam1Z8Q7kNvwFvX6MJ&_nc_oc=Adm9SecLILo5UEjqjSX1VtSBBWl3fncXkZbbNXE0xjB2M6ecU2UDaVD2UyAdNWHNVmA&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLVagutn8NHnoBFryr3uQYtpIlTUX3QxAlWNI0hQ6_hpA&oe=6845EE98",
+          "watermarked_resized_image_url": "",
+          "title": "Fully Customizable",
+          "video_hd_url": null,
+          "video_preview_image_url": null,
+          "video_sd_url": null,
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": null
+        },
+        {
+          "body": "",
+          "caption": "facebook.com",
+          "cta_text": "Send Message",
+          "cta_type": "MESSAGE_PAGE",
+          "image_crops": [],
+          "link_description": "",
+          "link_url": null,
+          "original_image_url": null,
+          "resized_image_url": null,
+          "watermarked_resized_image_url": null,
+          "title": "Happy Customer Videos",
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/484956341_669884925600078_1378232664466475174_n.?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=f8jbRkMRZuYQ7kNvwHTZuA-&_nc_oc=AdlhfEVBPuZoYW2THwMndnDS1P_krCW9zo1jQ51IRmc6OyU6IuOZq45QBmJsRPM7rAg&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJPlB2QeEBfvykdmcfIB6_2GMIHVY2c4yBcOP9zVhGO0Q&oe=68460C73",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485766535_1158058349105982_4777339899239986008_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oIFyo5fl-1sQ7kNvwGWDTzH&_nc_oc=AdkZ_JBOX1Tk03yJ5WaOY0RrQL3TNXlXSU4MfD1P8VpezgcmE5oKtTdTnSxm96lAHA8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJPPUt4MJxP-xYihsv85RGGybFC2s5Gg9Dm2GjysxVojg&oe=68460B4A",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/484980042_1669159317042395_986128358107158794_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SLHvQVYsw4gQ7kNvwFrDWzL&_nc_oc=AdmctDN8PeRIX-b6tU-cRpQdaywbIvLZ_bqd1jWky3uPym3qrgb0Ybic-mmtiNWLJRg&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKrQ8jzHz7R4_R7im_2DFcaT2hmEtim4doa6aLcE3-rrA&oe=68460B06",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "cta_text": "Send message",
+      "cta_type": "MESSAGE_PAGE",
+      "country_iso_code": null,
+      "current_page_name": "Lakewood Ranch Holiday Lighting",
+      "display_format": "CAROUSEL",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": null,
+      "page_categories": [
+        "Home & Garden",
+        "Business"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 10,
+      "title": "Lakewood Ranch Holiday Lighting",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Lakewood Ranch Holiday Lighting",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "665097429795499",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1742454000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1363028655121677",
+    "page_id": "401983146324585",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "401983146324585",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/61562249200638/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Lakewood Ranch Holiday Lighting",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/484826308_630487933162900_613311798700586924_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_7pG_YIiIW8Q7kNvwGmjifO&_nc_oc=Adn93zGRrz596K1LV95_S81eB17Ewd2IJpX8kiDKEjZcaANofon3EvxA2Nmyc9ev9Pc&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJc-rwqToRLQz0mMS3zqihC4_XCrBmxIS35FywRmPNwuQ&oe=68460245",
+      "body": {
+        "text": "Year-Round Brilliance, Not Just for Christmas!\n\nElevate your home’s nighttime curb appeal with cutting-edge smart lighting solutions from top-tier outdoor light manufacturer Govee. Perfect for holidays or everyday elegance, these lights redefine versatility. \n\nWhy Choose Us?  \n\nOne and Done! Year-round installations are no longer a novelty—discreetly designed to blend seamlessly, even your HOA won’t bat an eye.  \n\nFully invisible cable management optional\n\nCustom-made, color-matching mounting brackets  \n\nCommercial-grade track systems available for business properties\n\nEntrust your installation to experts—our work is as enduring as our craftsmanship. Amateur or DIY installations may seem tempting, but they rarely stand the test of time.\n\nPayment Options: Credit cards accepted, with seamless invoicing via Square.  \n\nOne-time setup with minimal visibility when off  \n\nThousands of customizable colors, patterns, and brightness levels via an intuitive app  \n\nPre-programmed displays for Christmas, Halloween, Easter, Independence Day, Memorial Day, and more  \n\nGovee Warranties Apply\n\nCreate your own unique designs tailored to any occasion\n\nSmart Home Integration: Compatible with Alexa, Google, Apple, Matter, and more for effortless voice control—or opt for a classic remote. \n\nTechnical specs and additional details available upon request; just send us a message!  \n\nTurnaround Time: 2-10 days, depending on project scope.  \n\nLet us transform your exterior into a stunning, functional masterpiece for every season. \n\nContact me today to bring your vision to life!"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": null,
+      "cards": [],
+      "cta_text": "Send message",
+      "cta_type": "MESSAGE_PAGE",
+      "country_iso_code": null,
+      "current_page_name": "Lakewood Ranch Holiday Lighting",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": null,
+      "page_categories": [
+        "Home & Garden",
+        "Business"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 10,
+      "title": "Lakewood Ranch Holiday Lighting",
+      "videos": [
+        {
+          "video_hd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/485185886_1363028681788341_6295993759943187951_n.?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Gn6MQhQekc8Q7kNvwHWR2L9&_nc_oc=Adl9RCKbx5L9wQbRKBkourMmPMhGGnXZfRcWtif8cF64qbBtM1-Js0afIAgMEPI-W14&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLE83VoMHMsg2vPKkzZOEeP_pLGB-_xqpyipfI4aoOlyA&oe=6845E86F",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485788781_2797775147073191_2719868831399116288_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ERYaJIkBfwEQ7kNvwFAsHef&_nc_oc=AdkNRJs8n6S6xwGmBpEYL0CjphuN6VVt_NeqsFFrUMzIA20RCpS4vcfGOxkh6iCEmkU&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKYWZ9ocS-7XjHSqXQOIv8ouUpn1tEjE3V5Ta_ymdsIJA&oe=6845F666",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/484980042_1669159317042395_986128358107158794_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SLHvQVYsw4gQ7kNvwFrDWzL&_nc_oc=AdmctDN8PeRIX-b6tU-cRpQdaywbIvLZ_bqd1jWky3uPym3qrgb0Ybic-mmtiNWLJRg&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKrQ8jzHz7R4_R7im_2DFcaT2hmEtim4doa6aLcE3-rrA&oe=68460B06",
+          "watermarked_video_hd_url": "",
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Lakewood Ranch Holiday Lighting",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "625851003538732",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1742454000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "3149969778493937",
+    "page_id": "401983146324585",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "401983146324585",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/61562249200638/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Lakewood Ranch Holiday Lighting",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485779843_998554595125946_1321426394081780309_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tmZfQvvYLHUQ7kNvwENmxha&_nc_oc=AdlK-d6MsDIp4YS-tVvsgOEHZY0xonVnft7gg-l3vHNEP1nKbjVUKTpi4isDuD6X900&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJgczuJpLCivNHVBo8bk1aBbnNrLEIzi9IpbU5Q3eSqZg&oe=6846020C",
+      "body": {
+        "text": "Year-Round Brilliance, Not Just for Christmas!\n\nElevate your home’s nighttime curb appeal with cutting-edge smart lighting solutions from top-tier outdoor light manufacturer Govee. Perfect for holidays or everyday elegance, these lights redefine versatility. \n\nWhy Choose Us?  \n\nOne and Done! Year-round installations are no longer a novelty—discreetly designed to blend seamlessly, even your HOA won’t bat an eye.  \n\nFully invisible cable management optional\n\nCustom-made, color-matching mounting brackets  \n\nCommercial-grade track systems available for business properties\n\nEntrust your installation to experts—our work is as enduring as our craftsmanship. Amateur or DIY installations may seem tempting, but they rarely stand the test of time.\n\nPayment Options: Credit cards accepted, with seamless invoicing via Square.  \n\nOne-time setup with minimal visibility when off  \n\nThousands of customizable colors, patterns, and brightness levels via an intuitive app  \n\nPre-programmed displays for Christmas, Halloween, Easter, Independence Day, Memorial Day, and more  \n\nGovee Warranties Apply\n\nCreate your own unique designs tailored to any occasion\n\nSmart Home Integration: Compatible with Alexa, Google, Apple, Matter, and more for effortless voice control—or opt for a classic remote. \n\nTechnical specs and additional details available upon request; just send us a message!  \n\nTurnaround Time: 2-10 days, depending on project scope.  \n\nLet us transform your exterior into a stunning, functional masterpiece for every season. \n\nContact me today to bring your vision to life!"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": null,
+      "cards": [],
+      "cta_text": "Send message",
+      "cta_type": "MESSAGE_PAGE",
+      "country_iso_code": null,
+      "current_page_name": "Lakewood Ranch Holiday Lighting",
+      "display_format": "IMAGE",
+      "event": null,
+      "images": [
+        {
+          "original_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485581359_670335828858412_5445358690391104940_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eKA34BUMMD8Q7kNvwFrDs2O&_nc_oc=AdnIBReXbovPnRS7TUDucCP4GvdQ-7LdXtWuyTgvfuRyUeBHdybZlplheDqxgTjjDVI&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKk-sBOjuMGgzAQN7zlK79EOZ1z2eE2P6zuuPbT4mFyQQ&oe=68460607",
+          "resized_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/484992685_490819087436237_2847300742638059777_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1q00gA6Cm9oQ7kNvwGxbFV1&_nc_oc=AdntKKH_NxdVwnerZqZaewNRTUcmXflsZ0E_Eg_OtDjgcUJ0clrt1zkJRl7gVjObZEc&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJJLroVgRBeR4II6hJplKgPSTO19cgsOBSdLQHmT27J-w&oe=6845FF73",
+          "watermarked_resized_image_url": "",
+          "image_crops": []
+        }
+      ],
+      "link_description": null,
+      "link_url": null,
+      "page_categories": [
+        "Home & Garden",
+        "Business"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 10,
+      "title": "Lakewood Ranch Holiday Lighting",
+      "videos": [],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Lakewood Ranch Holiday Lighting",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "1034021628575915",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748934000,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1742454000,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "1290158025421951",
+    "page_id": "151627808030425",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "151627808030425",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/abuvthepar/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Abuv The Par",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485366294_667546225958490_8976275952944373691_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rY0-Y2f-3qEQ7kNvwHMorUO&_nc_oc=AdlXGrG-M1yl8ToPqlMPLdYEtLT9o0MchSz_sVdXvmhzz1tjTRJ647dVgIJ_CRE04pA&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfIG4o28cQqY63wTOik8v_UqeGOmTzl_3XmtS1llEsxBbg&oe=6846041F",
+      "body": {
+        "text": "How Selling on Amazon Works"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": "www.instagram.com",
+      "cards": [],
+      "cta_text": "Send message",
+      "cta_type": "INSTAGRAM_MESSAGE",
+      "country_iso_code": null,
+      "current_page_name": "Abuv The Par",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": "https://www.instagram.com/",
+      "page_categories": [
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 993,
+      "title": null,
+      "videos": [
+        {
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/485355658_977540587895341_9004697101617270851_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BPPoMp_3u20Q7kNvwGZLiEw&_nc_oc=Admo-IgJjManlDQ09ko02XNkN-gTGJLGY8_sQvA0AdeQTrBPD2d82H4WqGMsEiwpVe8&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJYbuu2v4gIixJhy6YueXJBaqBoP2Mzuiuas99fpzS87Q&oe=6845DC51",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/485497713_2972723162891035_5777901777038070415_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GkslENUNufUQ7kNvwHrFBzU&_nc_oc=Adk27mtDApGo7oLpfmrl2Vo2bYvCimGIo4CnaByHktOEu3VJczKl2MrIJXMhrqcE934&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfLsw4im6TCY7rDV-kkQAhi9SlhH5_UwBy9jh5wbyxAWnQ&oe=6845F2E8",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Abuv The Par",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "1762976754261209",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748674800,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1742367600,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  },
+  {
+    "ad_archive_id": "949197380150913",
+    "page_id": "151627808030425",
+    "snapshot": {
+      "branded_content": null,
+      "page_id": "151627808030425",
+      "page_is_deleted": false,
+      "page_profile_uri": "https://www.facebook.com/abuvthepar/",
+      "root_reshared_post": null,
+      "byline": null,
+      "disclaimer_label": null,
+      "page_name": "Abuv The Par",
+      "page_profile_picture_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/474471852_1452961332774395_2798578812164037399_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fty528dG320Q7kNvwH-P0Hz&_nc_oc=AdnJJbvcbdNu_D-fVDB0gGM7Qui9FYaRmiMXojFE9N8-mIPv2tq49RVrqrQ3aTRgEmA&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfKFBs5gpS9HIDzsTMCDY3ASV75OyXJetqN4kjbN3KbdGQ&oe=6845F527",
+      "body": {
+        "text": "What is Amazon FBA? How Amazon FBA Works in 14 Minutes"
+      },
+      "is_reshared": false,
+      "brazil_tax_id": null,
+      "caption": null,
+      "cards": [],
+      "cta_text": null,
+      "cta_type": null,
+      "country_iso_code": null,
+      "current_page_name": "Abuv The Par",
+      "display_format": "VIDEO",
+      "event": null,
+      "images": [],
+      "link_description": null,
+      "link_url": null,
+      "page_categories": [
+        "Education website"
+      ],
+      "page_entity_type": "PERSON_PROFILE",
+      "page_is_profile_page": false,
+      "page_like_count": 993,
+      "title": null,
+      "videos": [
+        {
+          "video_hd_url": "",
+          "video_preview_image_url": "https://scontent-dub4-1.xx.fbcdn.net/v/t39.35426-6/474566618_1045950204005700_5154664629533903864_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YSFqnxL3Jp8Q7kNvwFx8hrz&_nc_oc=AdlKvLoAy-UGkT15UD2DkECRWawZZ7bxUk6S7NtUNzHUlQQCGqHXyBQro2gfPGgP2JU&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfL59Ipmq01rFB9xiMexN8waOMHrxb8QMZ-ymndcpBDUGg&oe=6846082F",
+          "video_sd_url": "https://video-dub4-1.xx.fbcdn.net/v/t42.1790-2/474565055_1275444940193611_647786586973433840_n.mp4?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=43MPgourYoIQ7kNvwFkFkTQ&_nc_oc=AdmffILtczFSNurOnfuJFyEPssHRKjZHEW23qyfGenOoV8W-5CnBC9szfDxE86YCD_c&_nc_zt=28&_nc_ht=video-dub4-1.xx&_nc_gid=F1Jhgu6hS7eXTdf8WeMeFw&oh=00_AfJaGLap4Gsut49l9xXkvIeoe9asGHWSqp3Gt80XsAbD_A&oe=6845E78A",
+          "watermarked_video_hd_url": null,
+          "watermarked_video_sd_url": ""
+        }
+      ],
+      "additional_info": null,
+      "ec_certificates": [],
+      "extra_images": [],
+      "extra_links": [],
+      "extra_texts": [],
+      "extra_videos": []
+    },
+    "is_active": true,
+    "has_user_reported": false,
+    "report_count": null,
+    "menu_items": [],
+    "state_media_run_label": null,
+    "page_is_deleted": false,
+    "page_name": "Abuv The Par",
+    "ad_id": null,
+    "archive_types": [],
+    "categories": [
+      "UNKNOWN"
+    ],
+    "collation_count": 1,
+    "collation_id": "908385641458881",
+    "contains_digital_created_media": false,
+    "contains_sensitive_content": false,
+    "currency": "",
+    "end_date": 1748588400,
+    "entity_type": "PERSON_PROFILE",
+    "fev_info": null,
+    "gated_type": "ELIGIBLE",
+    "hidden_safety_data": false,
+    "hide_data_status": "NONE",
+    "impressions_with_index": {
+      "impressions_text": null,
+      "impressions_index": -1
+    },
+    "is_aaa_eligible": false,
+    "is_profile_page": false,
+    "political_countries": [],
+    "publisher_platform": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER"
+    ],
+    "reach_estimate": null,
+    "regional_regulation_data": {
+      "finserv": {
+        "is_deemed_finserv": false,
+        "is_limited_delivery": false
+      },
+      "tw_anti_scam": {
+        "is_limited_delivery": false
+      }
+    },
+    "spend": null,
+    "start_date": 1737446400,
+    "targeted_or_reached_countries": [],
+    "total_active_time": null
+  }
+]
