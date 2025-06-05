@@ -55,6 +55,7 @@ async def run_pipeline(keyword: str, config: RunRequest):
         # Initialize status
         status = running_tasks[keyword]
         status.status = PipelineStatus.RUNNING_STEP1
+        status.started_at = datetime.now()
         
         # Log start
         log_entry = {
@@ -65,7 +66,11 @@ async def run_pipeline(keyword: str, config: RunRequest):
             "config": config.dict()
         }
         log_to_file(keyword, log_entry)
-        logger.info("pipeline_start", keyword=keyword, **config.dict())
+        logger.info(
+            "pipeline_start",
+            keyword=keyword,
+            **{k: v for k, v in config.dict().items() if k != "keyword"}
+        )
 
         # Run pipeline with our config 
         # Currently run_single_keyword_pipeline only accepts keyword and max_ads
@@ -76,7 +81,8 @@ async def run_pipeline(keyword: str, config: RunRequest):
         status.step1_products = results.get("step1_products", 0)
         status.step2_enriched = results.get("step2_enriched", 0)
         status.completed_at = datetime.now()
-        status.duration_seconds = (status.completed_at - status.started_at).total_seconds()
+        if status.started_at:
+            status.duration_seconds = (status.completed_at - status.started_at).total_seconds()
         status.errors = results.get("errors", [])
         status.status = PipelineStatus.COMPLETED
         
@@ -108,7 +114,8 @@ async def run_pipeline(keyword: str, config: RunRequest):
             status.status = PipelineStatus.FAILED
             status.errors.append(error_msg)
             status.completed_at = datetime.now()
-            status.duration_seconds = (status.completed_at - status.started_at).total_seconds()
+            if status.started_at:
+                status.duration_seconds = (status.completed_at - status.started_at).total_seconds()
         
         # Log error
         log_entry = {
