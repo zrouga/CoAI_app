@@ -5,19 +5,21 @@ import { DashboardHeader } from '@/components/DashboardHeader';
 import { KeywordForm } from '@/components/KeywordForm';
 import { ControlPanel } from '@/components/ControlPanel';
 import { ProgressMonitor } from '@/components/ProgressMonitor';
-import { ResultsTable } from '@/components/ResultsTable';
+import { ResultsView } from '@/components/ResultsView';
 import { DashboardStats } from '@/components/DashboardStats';
+import { ErrorBoundary } from '@/components/ErrorBoundary';
 
 export default function Home() {
   const [activeKeyword, setActiveKeyword] = useState<string>('');
   const [isRunning, setIsRunning] = useState(false);
 
   return (
-    <main className="min-h-screen bg-background">
-      <DashboardHeader />
-      
-      <div className="container mx-auto py-8 px-4">
-        <DashboardStats />
+    <ErrorBoundary>
+      <main className="min-h-screen bg-background">
+        <DashboardHeader />
+        
+        <div className="container mx-auto py-8 px-4">
+          <DashboardStats />
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mt-6">
           <div className="lg:col-span-4">
@@ -49,11 +51,12 @@ export default function Home() {
             
             <div className="card">
               <h2 className="text-xl font-semibold mb-4 text-primary">Results</h2>
-              <ResultsTable keyword={activeKeyword} />
+              <ResultsView keyword={activeKeyword} />
             </div>
           </div>
         </div>
       </div>
     </main>
+    </ErrorBoundary>
   );
 }

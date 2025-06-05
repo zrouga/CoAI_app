@@ -23,8 +23,12 @@ export async function runKeywordPipeline(request: RunRequest): Promise<KeywordSt
   });
 
   if (!response.ok) {
-    const errorData = await response.json();
-    throw new Error(errorData.detail || 'Failed to run pipeline');
+    try {
+      const errorData = await response.json();
+      throw new Error(errorData.detail || 'Failed to run pipeline');
+    } catch {
+      throw new Error(`HTTP ${response.status}: Failed to run pipeline`);
+    }
   }
 
   return response.json();
@@ -151,6 +155,35 @@ export async function deleteMultipleKeywordResults(keywords: string[]): Promise<
     const errorData = await response.json();
     throw new Error(errorData.detail || 'Failed to delete multiple results');
   }
+}
+
+/**
+ * Get all products (with optional keyword filter)
+ */
+export async function getAllProducts(
+  keyword?: string,
+  page = 1,
+  pageSize = 20,
+  sortBy = 'first_discovered',
+  sortDesc = true
+): Promise<{ items: any[], total: number }> {
+  const url = new URL(`${API_BASE_URL}/results/products`);
+  if (keyword) {
+    url.searchParams.append('keyword', keyword);
+  }
+  url.searchParams.append('page', page.toString());
+  url.searchParams.append('page_size', pageSize.toString());
+  url.searchParams.append('sort_by', sortBy);
+  url.searchParams.append('sort_desc', sortDesc.toString());
+
+  const response = await fetch(url);
+  
+  if (!response.ok) {
+    const errorData = await response.json();
+    throw new Error(errorData.detail || 'Failed to get products');
+  }
+
+  return response.json();
 }
 
 /**

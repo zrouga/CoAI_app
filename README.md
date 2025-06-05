@@ -1,114 +1,238 @@
-# Minimal Market Intelligence Pipeline
+# Market Intelligence Pipeline
 
-A lean, standalone implementation of a 2-step market intelligence pipeline:
-1. **Keyword → Facebook Ads → Landing URLs** (via Apify)
-2. **Domain → Free Traffic Enrichment** (via SimilarWeb + ScraperAPI)
+A production-ready, real-time market intelligence pipeline that discovers and analyzes competitor products through Facebook ads and enriches them with traffic data.
 
-## Quick Start
+## 🏗️ Architecture
+
+```
+┌─────────────────┐     SSE      ┌──────────────────┐     ┌─────────────────┐
+│  Next.js UI     │◄────────────►│  FastAPI Backend │────▶│  SQLite DB      │
+│  (Port 3000)    │              │  (Port 8000)     │     │                 │
+│                 │              │                  │     └─────────────────┘
+│ • Dashboard     │              │ • REST API       │              │
+│ • Real-time     │              │ • SSE Streaming  │              ▼
+│   Progress      │              │ • Metrics        │     ┌──────────────┐
+│ • Results View  │              │ • Health Checks  │────▶│ External APIs│
+└─────────────────┘              └──────────────────┘     │ • Apify      │
+                                                           │ • ScraperAPI │
+                                                           └──────────────┘
+```
+
+### Key Features
+- **Real-time Progress Streaming**: Server-Sent Events (SSE) for live pipeline updates
+- **Structured Logging**: JSON logs with correlation IDs for request tracing
+- **Metrics & Monitoring**: Prometheus-compatible `/metrics` endpoint
+- **Retry Logic**: Exponential backoff for external API resilience
+- **Full Observability**: Health checks, detailed logging, and error tracking
+
+## 🚀 Quick Start
+
+### Using Docker (Recommended)
+
+```bash
+# Start the entire stack
+docker compose up --build
+
+# Access the application
+# UI: http://localhost:3000
+# API: http://localhost:8000
+# Docs: http://localhost:8000/docs
+```
+
+### Manual Setup
 
 ```bash
 # 1. Install dependencies
 pip install -r requirements.txt
+cd frontend && npm install
 
-# 2. Run the pipeline
-python run_one_keyword.py --keyword "keto" --max-ads 10
+# 2. Set up environment
+cp .env.example .env
+# Edit .env with your API keys:
+# - APIFY_TOKEN
+# - SCRAPER_API_KEY
+
+# 3. Start backend
+python app_server.py
+
+# 4. Start frontend (new terminal)
+cd frontend && npm run dev
 ```
 
-## Project Structure
+## 🔧 Environment Variables
 
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `APIFY_TOKEN` | Apify API token for Facebook ad scraping | Yes |
+| `SCRAPER_API_KEY` | ScraperAPI key for traffic data | Yes |
+| `CORS_ORIGIN` | Frontend URL for CORS (default: http://localhost:3000) | No |
+| `LOG_LEVEL` | Logging level (DEBUG, INFO, WARNING, ERROR) | No |
+
+## 📊 API Endpoints
+
+### Pipeline Management
+- `POST /pipeline/run` - Start analysis for a keyword
+- `GET /pipeline/status/{keyword}` - Get pipeline status
+- `GET /pipeline/stream/{keyword}` - SSE stream for real-time updates
+
+### Results & Analytics  
+- `GET /results/products` - Query discovered products
+- `GET /results/traffic` - Get traffic intelligence data
+- `GET /dashboard/stats` - Dashboard statistics
+
+### Monitoring
+- `GET /health` - Health check
+- `GET /metrics` - Prometheus metrics
+- `GET /metrics/health/detailed` - Detailed component health
+
+## 🧪 Testing
+
+```bash
+# Run backend tests
+pytest tests/backend/test_e2e_pipeline.py -v
+
+# Run specific e2e test
+pytest tests/backend/test_e2e_pipeline.py::test_full_pipeline_e2e -v
+
+# Run with coverage
+pytest --cov=api --cov=app tests/
+```
+
+### Test Coverage
+- E2E pipeline test with `atlas_test` keyword
+- Concurrent pipeline handling
+- Error scenarios
+- API endpoint verification
+- Database integrity checks
+
+## 📈 Monitoring & Observability
+
+### Metrics
+Access Prometheus-compatible metrics at `http://localhost:8000/metrics`:
+- Request counts and latency
+- Pipeline success/failure rates  
+- Database statistics
+- Memory usage
+
+### Logs
+Structured JSON logs are written to `logs/app.log` with:
+- Correlation IDs for request tracing
+- Log rotation (10MB max, 5 backups)
+- Real-time streaming to UI
+
+### Health Checks
+- Basic: `GET /health`
+- Detailed: `GET /metrics/health/detailed`
+
+## 🚦 Common Operations
+
+### Run Analysis for a Keyword
+```bash
+# Via API
+curl -X POST http://localhost:8000/pipeline/run \
+  -H "Content-Type: application/json" \
+  -d '{"keyword": "fitness", "max_ads": 20}'
+
+# Via CLI
+python run_one_keyword.py --keyword "fitness" --max-ads 20
+```
+
+### Monitor Real-time Progress
+1. Open dashboard at http://localhost:3000
+2. Enter keyword and click "Run Pipeline" 
+3. Watch live progress with streaming logs
+
+### Export Results
+```bash
+# Get products as JSON
+curl "http://localhost:8000/results/products?keyword=fitness&format=json" > products.json
+
+# Get traffic data
+curl "http://localhost:8000/results/traffic?keyword=fitness" > traffic.json
+```
+
+## 🔍 Troubleshooting
+
+### Pipeline Failures
+1. Check logs: `tail -f logs/app.log | jq .`
+2. Verify API keys in `.env`
+3. Check external API quotas
+4. Review correlation ID in logs for failed request
+
+### Connection Issues
+- Frontend can't reach backend: Check CORS settings
+- SSE disconnects: Check nginx/proxy buffering settings
+- Database locked: Ensure single writer with SQLite
+
+### Performance Issues
+- Slow Step 1: Apify API latency (normal: 15-20s)
+- Slow Step 2: Rate limiting on traffic API
+- High memory: Check `/metrics/health/detailed`
+
+## 📊 Database Schema
+
+### Core Tables
+- `keyword` - Search keywords and their status
+- `discoveredproduct` - Products found via Facebook ads
+- `trafficintelligence` - Website traffic metrics
+- `contentanalysis` - AI-powered content classification
+
+### Key Relationships
+```
+keyword (1) ─── (N) discoveredproduct (1) ─── (N) trafficintelligence
+                           │
+                           └──── (N) contentanalysis
+```
+
+## 🚀 Scaling Roadmap
+
+### Phase 1: Current (SQLite + Single Instance)
+- ✅ Suitable for <100 concurrent users
+- ✅ Handles ~1000 keywords/day
+- ✅ Simple deployment
+
+### Phase 2: PostgreSQL + Redis
+- Multiple API instances
+- Redis for caching & queues
+- PostgreSQL for concurrency
+- ~10,000 keywords/day
+
+### Phase 3: Distributed Processing  
+- Celery for task distribution
+- S3 for result storage
+- Kubernetes deployment
+- Unlimited scale
+
+## 🛠️ Development
+
+### Code Structure
 ```
 minimal_app/
-├─ run_one_keyword.py      # Main pipeline runner
-├─ .env                    # API keys (already configured)
-├─ .env.example           # Example environment variables
-├─ requirements.txt        # Minimal dependencies
-├─ app/
-│   ├─ core/
-│   │   ├─ step1_keyword_scraper.py      # Facebook ad scraper
-│   │   └─ free_traffic_analyzer.py      # SimilarWeb traffic data enrichment
-│   ├─ models/
-│   │   └─ models.py       # SQLModel database schemas
-│   └─ database/
-│       └─ db.py           # Database connection
-├─ app/config/
-│   └─ blacklisted_domains.csv     # Domains to exclude
-└─ data/
-    └─ database.db         # SQLite database (auto-created)
+├── api/                 # FastAPI backend
+│   ├── routers/        # API endpoints
+│   ├── services/       # Business logic
+│   └── utils/          # Helpers
+├── app/                # Core pipeline
+│   ├── core/          # Scraping logic
+│   └── models/        # Database models  
+├── frontend/          # Next.js UI
+└── tests/            # Test suites
 ```
 
-## Environment Variables
+### Adding New Features
+1. Add router in `api/routers/`
+2. Implement service in `api/services/`
+3. Update models if needed
+4. Add tests
+5. Update API docs
 
-The `.env` file should be configured with these API keys:
-- `APIFY_TOKEN` - For Facebook ad scraping (Step 1)
-- `SCRAPER_API_KEY` - For SimilarWeb traffic data via ScraperAPI proxy (Step 2)
+### Contributing
+1. Fork the repository
+2. Create feature branch
+3. Add tests for new features
+4. Ensure all tests pass
+5. Submit pull request
 
-## Usage Examples
+## 📝 License
 
-### Basic Pipeline Run
-```bash
-python run_one_keyword.py --keyword "supplements" --max-ads 20
-```
-
-### Try Different Keywords
-```bash
-python run_one_keyword.py --keyword "keto" --max-ads 10
-python run_one_keyword.py --keyword "skincare" --max-ads 15
-python run_one_keyword.py --keyword "fitness" --max-ads 25
-```
-
-## Expected Output
-
-```
-🚀 SINGLE KEYWORD PIPELINE: 'keto'
-================================================================================
-📋 Configuration: max_ads=10, keyword='keto'
-
-👉 STEP 1 START: Facebook Ad Scraping
-✅ STEP 1 END: Found 8 products in 15.2s
-
-👉 STEP 2 START: Traffic Data Enrichment
-✅ STEP 2 END: Enriched 3/8 domains in 8.1s
-
-🎉 PIPELINE COMPLETE!
-⏱️  Total Duration: 23.3s
-📊 Final Results:
-   ├─ Products Discovered: 8
-   └─ Traffic Enriched: 3
-```
-
-## Performance Notes
-
-- **Step 1**: ~15-20 seconds (Apify API calls)
-- **Step 2**: ~1-2 seconds per domain (SimilarWeb traffic data via ScraperAPI)
-- **Total**: ~20-30 seconds for 10 products
-
-## Troubleshooting
-
-### No products found
-- Try different keywords: "jewelry", "fitness", "skincare"
-- Increase `--max-ads` parameter
-- Check Apify token validity
-
-### Traffic data unavailable
-- Normal for new/small domains
-- SimilarWeb may not have data for very new or low-traffic sites
-- ScraperAPI quota may be exhausted
-
-## Database Schema
-
-All data is stored in SQLite with two main tables:
-- `discoveredproduct` - Facebook ad intelligence from Step 1
-- `trafficintelligence` - Website traffic data from Step 2
-
-See `app/models/models.py` for complete schema.
-
-## Next Steps
-
-1. **Scale Up**: Process multiple keywords in batch
-2. **Export Data**: Query SQLite database directly
-3. **Improve Traffic Analysis**: Add more data sources or fallback options if needed
-4. **Add Custom Analytics**: Build reporting on top of the collected data
-
----
-
-This is a minimal, production-ready implementation focusing on the core Steps 1-2 functionality.
+This project is proprietary and confidential.

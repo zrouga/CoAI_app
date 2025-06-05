@@ -46,7 +46,7 @@ def get_scraperapi_url(url: str) -> str:
     Returns:
         ScraperAPI-formatted URL
     """
-    return f"http://{SCRAPER_API_KEY}:@proxy.scraperapi.com:8001?url={quote(url)}"
+    return f"http://scraperapi:{SCRAPER_API_KEY}@proxy-server.scraperapi.com:8001?url={quote(url)}"
 
 
 async def fetch_traffic_data(domain: str, retry_count: int = 0) -> Tuple[Optional[int], str]:

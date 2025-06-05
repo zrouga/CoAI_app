@@ -1,122 +1,140 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { TrendingUp, Database, Globe, Tag } from 'lucide-react';
-import { getDashboardStats } from '@/services/api';
-import { DashboardStats as DashboardStatsType } from '@/types/api';
+import { Package, Globe, Award, Search, RefreshCw } from 'lucide-react';
+import { useApi } from '@/hooks/useApiClient';
+import { DashboardStats as Stats } from '@/types/api';
 
 export function DashboardStats() {
-  const [stats, setStats] = useState<DashboardStatsType>({
-    total_products: 0,
-    unique_domains: 0,
-    enriched_domains: 0,
-    total_keywords: 0,
-    recent_keywords: []
+  const { data: stats, error, mutate } = useApi<Stats>('/dashboard/stats', {
+    refreshInterval: 30000, // Auto-refresh every 30 seconds
   });
-  const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const fetchStats = async () => {
-      try {
-        const data = await getDashboardStats();
-        setStats(data);
-      } catch (error) {
-        console.error('Failed to fetch dashboard stats:', error);
-      } finally {
-        setIsLoading(false);
-      }
-    };
+  const loading = !stats && !error;
 
-    fetchStats();
-    
-    // Refresh stats every minute
-    const interval = setInterval(fetchStats, 60000);
-    return () => clearInterval(interval);
-  }, []);
-
-  // Format numbers with commas
-  const formatNumber = (num: number) => {
-    return new Intl.NumberFormat().format(num);
+  const handleRefresh = () => {
+    mutate();
   };
 
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-      {/* Total Products */}
-      <div className="card bg-white shadow-sm p-4 flex items-center space-x-4">
-        <div className="flex-shrink-0 h-12 w-12 rounded-full bg-primary-50 flex items-center justify-center">
-          <Database className="h-6 w-6 text-primary" />
-        </div>
-        <div>
-          <p className="text-sm font-medium text-gray-500">Total Products</p>
-          {isLoading ? (
-            <div className="h-6 w-24 bg-gray-200 animate-pulse rounded"></div>
-          ) : (
-            <p className="text-2xl font-semibold text-gray-900">{formatNumber(stats.total_products)}</p>
-          )}
-        </div>
-      </div>
-
-      {/* Unique Domains */}
-      <div className="card bg-white shadow-sm p-4 flex items-center space-x-4">
-        <div className="flex-shrink-0 h-12 w-12 rounded-full bg-accent-50 flex items-center justify-center">
-          <Globe className="h-6 w-6 text-accent" />
-        </div>
-        <div>
-          <p className="text-sm font-medium text-gray-500">Unique Domains</p>
-          {isLoading ? (
-            <div className="h-6 w-24 bg-gray-200 animate-pulse rounded"></div>
-          ) : (
-            <p className="text-2xl font-semibold text-gray-900">{formatNumber(stats.unique_domains)}</p>
-          )}
-        </div>
-      </div>
-
-      {/* Enriched with Traffic */}
-      <div className="card bg-white shadow-sm p-4 flex items-center space-x-4">
-        <div className="flex-shrink-0 h-12 w-12 rounded-full bg-green-50 flex items-center justify-center">
-          <TrendingUp className="h-6 w-6 text-green-500" />
-        </div>
-        <div>
-          <p className="text-sm font-medium text-gray-500">Enriched with Traffic</p>
-          {isLoading ? (
-            <div className="h-6 w-24 bg-gray-200 animate-pulse rounded"></div>
-          ) : (
-            <p className="text-2xl font-semibold text-gray-900">
-              {formatNumber(stats.enriched_domains)}
-              <span className="text-sm text-gray-500 ml-1">
-                ({stats.unique_domains ? 
-                  Math.round((stats.enriched_domains / stats.unique_domains) * 100) : 0}%)
-              </span>
-            </p>
-          )}
-        </div>
-      </div>
-
-      {/* Keywords Analyzed */}
-      <div className="card bg-white shadow-sm p-4 flex items-center space-x-4">
-        <div className="flex-shrink-0 h-12 w-12 rounded-full bg-purple-50 flex items-center justify-center">
-          <Tag className="h-6 w-6 text-purple-500" />
-        </div>
-        <div>
-          <p className="text-sm font-medium text-gray-500">Keywords Analyzed</p>
-          {isLoading ? (
-            <div className="h-6 w-24 bg-gray-200 animate-pulse rounded"></div>
-          ) : (
-            <div>
-              <p className="text-2xl font-semibold text-gray-900">{formatNumber(stats.total_keywords)}</p>
-              {stats.recent_keywords.length > 0 && (
-                <div className="mt-1 flex flex-wrap gap-1">
-                  {stats.recent_keywords.slice(0, 3).map((keyword) => (
-                    <span key={keyword} className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
-                      {keyword}
-                    </span>
-                  ))}
-                </div>
-              )}
+  if (loading) {
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {[...Array(4)].map((_, i) => (
+          <div key={i} className="card p-4">
+            <div className="animate-pulse">
+              <div className="h-10 w-10 bg-gray-300 rounded-lg mb-3"></div>
+              <div className="h-4 bg-gray-300 rounded w-1/2 mb-2"></div>
+              <div className="h-6 bg-gray-300 rounded w-3/4"></div>
             </div>
-          )}
-        </div>
+          </div>
+        ))}
       </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="card p-4 text-center text-red-600">
+        <p>Failed to load statistics</p>
+        <button 
+          onClick={handleRefresh}
+          className="mt-2 text-sm text-blue-600 hover:text-blue-800"
+        >
+          Try again
+        </button>
+      </div>
+    );
+  }
+
+  const statCards = [
+    {
+      icon: Package,
+      color: 'text-blue-600',
+      bgColor: 'bg-blue-100',
+      label: 'Total Products',
+      value: stats?.total_products || 0,
+    },
+    {
+      icon: Globe,
+      color: 'text-green-600',
+      bgColor: 'bg-green-100',
+      label: 'Unique Domains',
+      value: stats?.unique_domains || 0,
+    },
+    {
+      icon: Award,
+      color: 'text-purple-600',
+      bgColor: 'bg-purple-100',
+      label: 'Enriched Domains',
+      value: stats?.enriched_domains || 0,
+    },
+    {
+      icon: Search,
+      color: 'text-orange-600',
+      bgColor: 'bg-orange-100',
+      label: 'Keywords Tracked',
+      value: stats?.total_keywords || 0,
+    },
+  ];
+
+  // Get unique keywords from recent_keywords
+  const uniqueKeywords = stats?.recent_keywords 
+    ? Array.from(new Set(stats.recent_keywords.filter(k => k)))
+    : [];
+
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <h2 className="text-2xl font-bold text-primary">Market Intelligence Overview</h2>
+        <button
+          onClick={handleRefresh}
+          className="text-gray-500 hover:text-gray-700 transition-colors"
+          title="Refresh stats"
+        >
+          <RefreshCw size={20} />
+        </button>
+      </div>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {statCards.map((stat, index) => {
+          const Icon = stat.icon;
+          return (
+            <div key={index} className="card p-4 hover:shadow-lg transition-shadow">
+              <div className="flex items-center justify-between">
+                <div>
+                  <div className={`inline-flex p-2 rounded-lg ${stat.bgColor}`}>
+                    <Icon className={stat.color} size={24} />
+                  </div>
+                  <p className="text-sm text-gray-600 mt-2">{stat.label}</p>
+                  <p className="text-2xl font-bold mt-1">
+                    {stat.value.toLocaleString()}
+                  </p>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {uniqueKeywords.length > 0 && (
+        <div className="card p-4">
+          <h3 className="text-sm font-medium text-gray-700 mb-2">Recent Keywords</h3>
+          <div className="flex flex-wrap gap-2">
+            {uniqueKeywords.slice(0, 8).map((keyword, idx) => (
+              <span 
+                key={idx} 
+                className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
+              >
+                {keyword}
+              </span>
+            ))}
+            {uniqueKeywords.length > 8 && (
+              <span className="px-3 py-1 text-gray-500 text-sm">
+                +{uniqueKeywords.length - 8} more
+              </span>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

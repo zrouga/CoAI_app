@@ -4,18 +4,151 @@ Results router for handling results and logs requests
 import json
 import time
 import asyncio
-from typing import List
+from typing import List, Optional
 
 from fastapi import APIRouter, HTTPException, Query
-from sqlmodel import select, col
+from sqlmodel import select, col, func
 from sse_starlette.sse import EventSourceResponse
 
 from api.models.schemas import ProductResult, LogEntry, TrafficSparkline, DashboardStats, KeywordStatus
 from api.services.pipeline_service import running_tasks, task_logs, get_log_file_path, get_keyword_status
 from app.database.db import get_session
-from app.models.models import DiscoveredProduct, TrafficIntelligence
+from app.models.models import DiscoveredProduct, TrafficIntelligence, Keyword
+from datetime import datetime
 
 router = APIRouter(tags=["results"])
+
+
+@router.get("/results/keywords")
+async def get_keywords(
+    page: int = Query(1, ge=1),
+    page_size: int = Query(100, ge=1, le=1000)
+):
+    """Get all unique keywords"""
+    with get_session() as session:
+        # Get all unique keywords
+        keywords = session.exec(
+            select(Keyword.keyword)
+            .where(Keyword.keyword != None)
+            .where(Keyword.keyword != '')
+            .distinct()
+            .order_by(Keyword.keyword)
+        ).all()
+        
+        # Apply pagination
+        skip = (page - 1) * page_size
+        paginated_keywords = keywords[skip:skip + page_size]
+        
+        return {
+            "items": paginated_keywords,
+            "total": len(keywords),
+            "page": page,
+            "page_size": page_size,
+            "pages": (len(keywords) + page_size - 1) // page_size
+        }
+
+
+@router.get("/results/products")
+async def get_products(
+    keyword: Optional[str] = Query(None, description="Filter by keyword"),
+    page: int = Query(1, ge=1, description="Page number"),
+    page_size: int = Query(20, ge=5, le=100, description="Items per page"),
+    sort_by: str = Query("first_discovered", description="Field to sort by"),
+    sort_desc: bool = Query(True, description="Sort in descending order")
+):
+    """Get products with optional keyword filter"""
+    skip = (page - 1) * page_size
+    
+    with get_session() as session:
+        # Build base query for products
+        products_query = select(DiscoveredProduct)
+        
+        # If keyword is provided, filter by it
+        if keyword:
+            # First, get the keyword record
+            keyword_record = session.exec(
+                select(Keyword).where(Keyword.keyword == keyword)
+            ).first()
+            
+            if keyword_record:
+                products_query = products_query.where(
+                    DiscoveredProduct.keyword_id == keyword_record.id
+                )
+            else:
+                # No keyword found, return empty result
+                return {
+                    "items": [],
+                    "total": 0,
+                    "page": page,
+                    "page_size": page_size,
+                    "pages": 0
+                }
+        
+        # Get total count
+        if keyword and keyword_record:
+            total_count = session.exec(
+                select(func.count(DiscoveredProduct.id))
+                .where(DiscoveredProduct.keyword_id == keyword_record.id)
+            ).one()
+        else:
+            total_count = session.exec(
+                select(func.count(DiscoveredProduct.id))
+            ).one()
+        
+        # Apply sorting
+        if sort_by in ["brand_name", "brand_domain", "first_discovered", "estimated_monthly_ad_spend"]:
+            sort_col = getattr(DiscoveredProduct, sort_by)
+            if sort_desc:
+                products_query = products_query.order_by(sort_col.desc())
+            else:
+                products_query = products_query.order_by(sort_col)
+        
+        # Apply pagination
+        products = session.exec(
+            products_query
+            .offset(skip)
+            .limit(page_size)
+        ).all()
+        
+        # Prepare results with traffic data
+        results = []
+        for product in products:
+            # Get traffic data
+            traffic_data = session.exec(
+                select(TrafficIntelligence)
+                .where(TrafficIntelligence.discovered_product_id == product.id)
+            ).first()
+            
+            # Get keyword name if we have keyword_id
+            keyword_name = None
+            if product.keyword_id:
+                kw = session.exec(
+                    select(Keyword).where(Keyword.id == product.keyword_id)
+                ).first()
+                if kw:
+                    keyword_name = kw.keyword
+            
+            results.append({
+                "id": product.id,
+                "brand_name": product.brand_name or "Unknown",
+                "brand_domain": product.brand_domain,
+                "product_page_url": product.product_page_url,
+                "keyword": keyword_name,
+                "first_discovered": product.first_discovered.isoformat() if product.first_discovered else None,
+                "estimated_monthly_ad_spend": product.estimated_monthly_ad_spend,
+                "traffic_data": {
+                    "monthly_visits": traffic_data.estimated_monthly_website_visits if traffic_data else None,
+                    "data_source": traffic_data.data_source if traffic_data else None
+                } if traffic_data else None
+            })
+        
+        return {
+            "items": results,
+            "total": total_count,
+            "page": page,
+            "page_size": page_size,
+            "pages": (total_count + page_size - 1) // page_size
+        }
 
 
 @router.get("/results/{keyword}", response_model=List[ProductResult])
@@ -30,16 +163,24 @@ async def get_results(
     skip = (page - 1) * page_size
     
     with get_session() as session:
+        # Get the keyword record
+        keyword_record = session.exec(
+            select(Keyword).where(Keyword.keyword == keyword)
+        ).first()
+        
+        if not keyword_record:
+            raise HTTPException(status_code=404, detail=f"Keyword not found: {keyword}")
+        
         # Build base query for products
         products_query = (
             select(DiscoveredProduct)
-            .where(DiscoveredProduct.discovery_keyword == keyword)
+            .where(DiscoveredProduct.keyword_id == keyword_record.id)
         )
         
         # Get total count for pagination info
         total_count = session.exec(
-            select(col(DiscoveredProduct.id).count())
-            .where(DiscoveredProduct.discovery_keyword == keyword)
+            select(func.count(DiscoveredProduct.id))
+            .where(DiscoveredProduct.keyword_id == keyword_record.id)
         ).one()
         
         # Apply sorting
@@ -62,7 +203,7 @@ async def get_results(
             # Sort products by monthly_visits
             def get_visits(product):
                 t = traffic_data.get(product.id)
-                return t.monthly_visits if t and t.monthly_visits else 0
+                return t.estimated_monthly_website_visits if t and t.estimated_monthly_website_visits else 0
             
             products.sort(key=get_visits, reverse=sort_desc)
             
@@ -70,7 +211,7 @@ async def get_results(
             products = products[skip:skip + page_size]
         else:
             # Sort by product fields
-            if sort_by in ["brand_name", "brand_domain", "discovered_at"]:
+            if sort_by in ["brand_name", "brand_domain", "first_discovered"]:
                 sort_col = getattr(DiscoveredProduct, sort_by)
                 if sort_desc:
                     products_query = products_query.order_by(sort_col.desc())
@@ -101,7 +242,7 @@ async def get_results(
             traffic_sparkline = None
             
             if traffic_data:
-                monthly_visits = traffic_data.monthly_visits
+                monthly_visits = traffic_data.estimated_monthly_website_visits
                 data_source = traffic_data.data_source
                 
                 # Create sparkline data if monthly visits are available
@@ -115,9 +256,9 @@ async def get_results(
             
             # Count ads with same domain
             ads_count = session.exec(
-                select(col(DiscoveredProduct.id).count())
+                select(func.count(DiscoveredProduct.id))
                 .where(
-                    DiscoveredProduct.discovery_keyword == keyword,
+                    DiscoveredProduct.keyword_id == keyword_record.id,
                     DiscoveredProduct.brand_domain == product.brand_domain,
                     DiscoveredProduct.brand_domain != None  # Ensure domain is not null
                 )
@@ -128,12 +269,12 @@ async def get_results(
                 brand_name=product.brand_name,
                 brand_domain=product.brand_domain,
                 product_page_url=product.product_page_url,
-                discovery_keyword=product.discovery_keyword,
+                discovery_keyword=keyword,  # Use the keyword string passed in
                 monthly_visits=monthly_visits,
                 traffic_sparkline=traffic_sparkline,
                 ads_count=ads_count,
                 data_source=data_source,
-                discovered_at=product.discovered_at
+                discovered_at=product.first_discovered  # Changed from discovered_at to first_discovered
             ))
         
         return results
@@ -254,7 +395,7 @@ async def delete_results(keyword: str):
         # Get products for the keyword
         products = session.exec(
             select(DiscoveredProduct)
-            .where(DiscoveredProduct.discovery_keyword == keyword)
+            .where(DiscoveredProduct.keyword_id == keyword)
         ).all()
         
         if not products:
@@ -300,3 +441,27 @@ async def delete_multiple_results(keywords: List[str]):
             pass
     
     return {"status": "success", "deleted_keywords": deleted}
+
+
+@router.delete("/products/{product_id}")
+async def delete_product(product_id: int):
+    """Soft delete a single product"""
+    with get_session() as session:
+        product = session.exec(
+            select(DiscoveredProduct).where(DiscoveredProduct.id == product_id)
+        ).first()
+        
+        if not product:
+            raise HTTPException(status_code=404, detail="Product not found")
+        
+        # Delete related traffic data first
+        traffic = session.exec(
+            select(TrafficIntelligence).where(TrafficIntelligence.discovered_product_id == product_id)
+        ).all()
+        for t in traffic:
+            session.delete(t)
+        
+        session.delete(product)
+        session.commit()
+        
+        return {"status": "success", "message": f"Product {product_id} deleted"}
